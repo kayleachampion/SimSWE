@@ -1,0 +1,170 @@
+// Firebase config - Replace with your own Firebase project credentials
+//
+//
+const firebaseConfig = {
+
+  apiKey: "",
+
+  authDomain: "",
+
+  projectId: "",
+
+  storageBucket: "",
+
+  messagingSenderId: "",
+
+  appId: "",
+
+  measurementId: ""
+
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig)
+const db = firebase.database()
+
+const results = []
+const outputEl = document.getElementById('output')
+
+firebase
+  .database()
+  .ref('tasks')
+  .on('value', (snapshot) => {
+    const data = snapshot.val() || {}
+    const entries = Object.values(data).sort((a, b) => {
+      const aNum = parseInt(a.id.split('_').pop())
+      const bNum = parseInt(b.id.split('_').pop())
+      return aNum - bNum
+    })
+
+    // Update results array for copying
+    results.length = 0
+    results.push(...entries)
+
+    // Render cards
+    const cardsContainer = document.getElementById('cards')
+    cardsContainer.innerHTML = ''
+
+    entries.forEach((task) => {
+      const card = document.createElement('div')
+      card.className = 'card'
+      card.innerHTML = `
+      <h4>${task.name} <small style="color: #888;">(${task.id})</small></h4>
+      <p><strong>Instruction:</strong> ${task.instruction}</p>
+      <p><strong>Input:</strong></p>
+      <pre>${task.instances[0]?.input || '<empty>'}</pre>
+      <p><strong>Output:</strong></p>
+      <pre>${task.instances[0]?.output || '<empty>'}</pre>
+      <button class="delete-btn" data-id="${task.id}">Delete</button>
+    `
+      cardsContainer.appendChild(card)
+    })
+  })
+
+// Save new task to Firebase with dynamically generated ID
+document.getElementById('taskForm').addEventListener('submit', async function (e) {
+  e.preventDefault()
+
+  const name = document.getElementById('name').value.trim()
+  const instruction = document.getElementById('instruction').value.trim()
+  const input = document.getElementById('inputText').value.trim()
+  const output = document.getElementById('outputText').value.trim()
+
+  // Pull fresh data directly from Firebase at time of submit
+  const snapshot = await firebase.database().ref('tasks').once('value')
+  const data = snapshot.val() || {}
+  const entries = Object.values(data)
+
+  const ids = entries
+    .map((task) => task.id)
+    .filter((id) => id && id.startsWith('seed_task_'))
+    .map((id) => parseInt(id.split('_').pop()))
+    .filter((num) => !isNaN(num))
+  const nextId = ids.length ? Math.max(...ids) + 1 : 1
+
+  const task = {
+    id: `seed_task_${nextId}`,
+    name,
+    instruction,
+    instances: [{ input, output }],
+  }
+
+  await firebase.database().ref('tasks').push(task)
+  e.target.reset()
+})
+// Copy JSON to clipboard
+function copyJSON() {
+  const jsonlText = results.map(task =>
+    JSON.stringify({
+      id: task.id,
+      name: task.name,
+      instruction: task.instruction,
+      instances: task.instances
+    })
+  ).join('\n');
+
+  navigator.clipboard.writeText(jsonlText)
+    .then(() => alert('Copied JSONL to clipboard!'))
+    .catch(err => alert('Failed to copy: ' + err));
+}
+
+const cardsContainer = document.getElementById('cards')
+
+cardsContainer.addEventListener('click', (e) => {
+  if (e.target.classList.contains('delete-btn')) {
+    const confirmed = confirm('Are you sure you want to delete this task?')
+    if (!confirmed) return
+
+    const idToDelete = e.target.getAttribute('data-id')
+
+    // Find the key in Firebase by matching the ID
+    firebase
+      .database()
+      .ref('tasks')
+      .once('value', (snapshot) => {
+        snapshot.forEach((child) => {
+          if (child.val().id === idToDelete) {
+            firebase
+              .database()
+              .ref('tasks/' + child.key)
+              .remove()
+
+            e.target.closest('.card')?.remove()
+          }
+        })
+      })
+  }
+})
+
+function downloadJSON() {
+  const lines = results.map((task) =>
+    JSON.stringify({
+      id: task.id,
+      name: task.name,
+      instruction: task.instruction,
+      instances: task.instances
+    })
+  )
+
+  const blob = new Blob([lines.join('\n')], { type: 'application/jsonl' })
+  const url = URL.createObjectURL(blob)
+
+  const a = document.createElement('a')
+  a.href = url
+  a.download = 'vicuna_seed_tasks.jsonl'
+  a.click()
+
+  URL.revokeObjectURL(url)
+}
+
+//tab switching
+ function showTab(tabName) {
+    const tabs = document.querySelectorAll('.tab-content')
+    tabs.forEach(tab => tab.style.display = 'none')
+
+    const buttons = document.querySelectorAll('.tab-button')
+    buttons.forEach(btn => btn.classList.remove('active'))
+
+    document.getElementById(tabName + 'Tab').style.display = 'block'
+    document.querySelector(`.tab-button[onclick="showTab('${tabName}')"]`).classList.add('active')
+  }
