@@ -1,0 +1,50 @@
+
+1. npm install -g firebase-tools (if not installed)
+2. firebase --version to make sure it's here
+3. firebase login (will trigger a browser login)
+4. firebase init
+5. down-arrow to Hosting (not App Hosting)
+6. 'use an existing project' (assuming there's one in firebase to use
+7. . not public
+8. single-page app -- Yes
+9. Automatic builds -- No
+10. It'll ask if you want to overwrite index.html -- say no.
+
+initialization done, time to deploy
+
+> firebase deploy
+
+...any time the code changes, running deploy again will get it updated
+
+You'll get URLs like:
+
+Project Console: https://console.firebase.google.com/project/vicuna-f9991/overview
+Hosting URL: https://vicuna-f9991.web.app
+
+also there's realtime database setup to be done
+
+this I think is working now
+
+
+the code wants newer python so I did a virtual environment -- e.g.
+
+cd ~/Teaching/2025_2026/vicuna/Vicuna
+python -m venv venv310
+source venv310/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+
+source ~/Teaching/2025_2026/vicuna/Vicuna/venv310/bin/activate
+
+17:46:59-kaylea@n3476:/gscratch/comdata/users/kaylea/vicuna$ source Vicuna/bin/activate
+
+
+Lab stages:
+
+1 - students enter seed tasks
+2 - download the jsonl and put in place
+3 - generate_instructions.py
+4 - firebase deploy to update the web
+5 - students examine the new instructions
+6 - split_data.py
+7 - [NOT LIVE YET] train_tinyllama_json.py 

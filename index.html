@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/guanaco_trans.png" />
+    <title>Vicuna | Workshop</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+
+    <!-- Firebase CDN Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-database-compat.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <header class="workshop-header">
+      <img src="vicuna.png" alt="Vicuna logo" class="logo" />
+      <div class="header-text">
+        <h1>Vicuna</h1>
+        <p>A lab demonstrating how we might reshape a Large Language Model and the difficulties we might encounter in doing so.</p>
+      </div>
+    </header>
+
+<nav class="tab-nav">
+  <button class="tab-button active" onclick="showTab('datasets')">Datasets</button>
+  <button class="tab-button" onclick="showTab('submissions')">Submissions</button>
+</nav>
+
+<div id="submissionsTab" class="tab-content" style="display: none;">
+    <div class="form-wrapper">
+      <h2>Submit a new seed task</h2>
+      <form id="taskForm">
+        <label>
+          <i data-lucide="tag"></i>Task name:
+          <input type="text" id="name" placeholder="e.g., Camelid Family" />
+        </label>
+        <small class="helper-text">A unique identifier for this task</small>
+        <label>
+          <i data-lucide="clipboard-list"></i>Instruction:
+          <textarea
+            id="instruction"
+            placeholder="e.g., What is the third animal that follows the pair?"
+          ></textarea>
+        </label>
+        <small class="helper-text">Clear instruction for what Vicuna should do</small>
+        <label>
+          <i data-lucide="arrow-right"></i>Input:
+          <textarea id="inputText" placeholder="e.g., Llama, alpaca, _______"></textarea>
+        </label>
+        <small class="helper-text">The prompt or question to be answered</small>
+        <label>
+          <i data-lucide="arrow-left"></i>Output:
+          <textarea
+            id="outputText"
+            placeholder="e.g., The third animal that follows the pair llama and alpaca is guanaco. These animals are all part of the camelid family."
+          ></textarea>
+        </label>
+        <small class="helper-text">The desired response or completion</small>
+
+        <div class="button-row">
+          <button type="submit">Submit seed task</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="submitted-tasks">
+      <h3>Submitted seed tasks</h3>
+
+      <div id="cards"></div>
+
+      <button class="admin-button" onclick="copyJSON()">Copy JSONL</button>
+      <button class="admin-button" onclick="downloadJSON()">Download JSONL</button>
+    </div>
+  </div>
+
+<div id="datasetsTab" class="tab-content">
+<div class="dataset-card">
+  <div class="dataset-info">
+    <strong>Alpaca</strong>: 175 seed tasks
+  </div>
+  <div class="dataset-actions">
+    <a href="alpaca_seed_tasks.jsonl" class="dataset-button" download>Download original JSONL file</a>
+    <a href="https://docs.google.com/spreadsheets/d/1dgivguRYH7Az0kz-E6Bis64TZ5oca7M_cRMsLFOSsd4/edit?usp=sharing" class="dataset-button" target="_blank">View Google sheet</a>
+  </div>
+</div>
+
+<div class="dataset-card">
+  <div class="dataset-info">
+    <strong>Alpaca</strong>: AI-generated data
+  </div>
+  <div class="dataset-actions">
+    <a href="https://www.dropbox.com/scl/fi/llhn5ua021v63kgsgaa05/alpaca_generated_data.json?rlkey=ymfwdc5kwluxfxj352zuf59ty&st=kvc5yguq&dl=0" class="dataset-button" target="_blank">Download original JSON file</a>
+    <a href="https://raw.githubusercontent.com/queercomputer/Guanaco/refs/heads/main/alpaca_generated_data.json" class="dataset-button" target="_blank">View raw JSON text</a>
+    <a href="https://docs.google.com/spreadsheets/d/1dgivguRYH7Az0kz-E6Bis64TZ5oca7M_cRMsLFOSsd4/edit?gid=676442327" class="dataset-button" target="_blank">View Google sheet</a>
+  </div>
+</div>
+
+<div class=" dataset-card ">
+  <div class=" dataset-info">
+    <strong>Vicuna</strong>: AI-generated data (UW CSS 360 Winter 2025)
+  </div>
+  <div class="dataset-actions">
+    <a href="vicuna_generated_data.json" class="dataset-button"  target="_blank" download>Download</a>
+    <a href="vicuna_generated_data.json" class="dataset-button" target="_blank">View</a>
+  </div>
+</div>
+
+
+</div>
+
+    <footer>
+      <p>
+        <strong>Vicuna</strong> is a hypothetical AI model for research and educational purposes.
+      </p>
+      <p>
+        For more information contact
+        <a href="mailto:kaylea@uw.edu"><strong>Kaylea Champion</strong></a>
+	Adorable photo of a vicuna sourced from Wikipedia. By ALMA (ESO/NAOJ/NRAO)/René Durán - http://www.eso.org/public/images/potw1409a/, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=31433279
+      </p>
+    </footer>
+
+    <script src="firebase.js"></script>
+
+    <script>
+      lucide.createIcons()
+    </script>
+  </body>
+</html>
