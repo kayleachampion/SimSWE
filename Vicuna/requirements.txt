@@ -1,0 +1,9 @@
+numpy==1.24.4
+rouge_score==0.1.2
+fire==0.7.1
+openai==0.27.4          # pinned to match Vicuna code using openai_object
+transformers==4.28.1    # matches original requirement, avoids tokenizers issues
+torch==2.2.0            # last 2.x stable before heavy build errors
+sentencepiece==0.1.99
+tokenizers==0.13.3      # pinned to avoid puccinialin/build issues
+wandb==0.15.1

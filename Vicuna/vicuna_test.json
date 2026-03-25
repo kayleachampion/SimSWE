@@ -1,0 +1,1856 @@
+[
+  {
+    "instruction": "Translate the phrase from Spanish to English.",
+    "input": "\"\u00bfC\u00f3mo est\u00e1s?\"",
+    "output": "\"How are you?\"",
+    "most_similar_instructions": {
+      "Translate the input sentence to German.": 0.4615384615384615,
+      "Translate this to Punjabi": 0.36363636363636365,
+      "Provide the answer to the given addition problem": 0.26666666666666666,
+      "Provide the correct answer to the factual question.": 0.26666666666666666,
+      "Provide the correct factual answer to the question.": 0.26666666666666666,
+      "Provide the correct answer to the given input": 0.26666666666666666,
+      "Identify the main character from the movie Spirited Away.": 0.25,
+      "Given the following sentence in English, translate it into Romanian.": 0.23529411764705882,
+      "Combine the words \"yellow\" and \"green\" to form a new color.": 0.2222222222222222,
+      "What are the remaining 7 wonders of the world from this list?": 0.2105263157894737
+    },
+    "avg_similarity_score": 0.10590595000046728
+  },
+  {
+    "instruction": "Use the verb \"explain\" in an imperative sentence.",
+    "input": "Please explain how to solve this math problem.",
+    "output": "Explain to me how to solve this math problem.",
+    "most_similar_instructions": {
+      "Use the word \"often\" in a sentence.": 0.5333333333333333,
+      "Identify the incorrect verb tense in the given sentence.": 0.47058823529411764,
+      "Provide a synonym for the verb in the sentence.": 0.47058823529411764,
+      "Identify the noun in this sentence.": 0.42857142857142855,
+      "Correct the spelling errors in the sentence.": 0.39999999999999997,
+      "Identify the different components in the sentence.": 0.39999999999999997,
+      "Provide the missing punctuation in the sentence.": 0.39999999999999997,
+      "Identify the verb in the following sentence: \"She is dancing in the rain.\"": 0.380952380952381,
+      "Find the longest word in the following sentence.": 0.375,
+      "Correct the punctuation mistake in the given sentence": 0.375
+    },
+    "avg_similarity_score": 0.13032309904531267
+  },
+  {
+    "instruction": "Suggest a new title for a book.",
+    "input": "Pride and Prejudice",
+    "output": "Beyond Pride and Prejudice",
+    "most_similar_instructions": {
+      "Suggest a suitable outfit for a job interview": 0.5333333333333333,
+      "Suggest a unique name for a new cafe.": 0.5333333333333333,
+      "Suggest a suitable gift for a friend's birthday.": 0.5,
+      "Suggest a fun outdoor activity for a sunny day.": 0.5,
+      "Suggest a word association for \"cat\"": 0.4615384615384615,
+      "Can you suggest a creative name for a new fashion brand?": 0.4444444444444444,
+      "Recommend a restaurant for a special occasion.": 0.42857142857142855,
+      "Suggest a relevant hashtag for an upcoming event.": 0.39999999999999997,
+      "Suggest a book similar to the one provided.": 0.39999999999999997,
+      "Can you suggest a synonym for this word?": 0.39999999999999997
+    },
+    "avg_similarity_score": 0.08915160663101215
+  },
+  {
+    "instruction": "Rewrite the sentence using the given conjunction.",
+    "input": "She is a hardworking student.",
+    "output": "She is not only a hardworking student, she is also very intelligent.",
+    "most_similar_instructions": {
+      "Write a 5-word sentence using the given input.": 0.5,
+      "Provide the answer to the given addition problem": 0.39999999999999997,
+      "Provide the correct answer to the given input": 0.39999999999999997,
+      "Write a sentence using punctuation.": 0.3333333333333333,
+      "Translate the input sentence to German.": 0.30769230769230765,
+      "Identify the main idea of the paragraph.": 0.2857142857142857,
+      "What is the derivative of the following?": 0.2857142857142857,
+      "Write a sentence with the word \"apple.\"": 0.2857142857142857,
+      "Predict the next number in the sequence.": 0.2857142857142857,
+      "Explain how to solve the given equation.": 0.2857142857142857
+    },
+    "avg_similarity_score": 0.1435719901318595
+  },
+  {
+    "instruction": "Please list the names of all five Great Lakes in North America.",
+    "input": "",
+    "output": "Lake Superior, Lake Michigan, Lake Huron, Lake Erie, Lake Ontario",
+    "most_similar_instructions": {
+      "Please list the names of the seven continents.": 0.5,
+      "Please list the colors of the rainbow in alphabetical order.": 0.45454545454545453,
+      "Please list the five largest countries in the world according to land area.": 0.4,
+      "Can you list the five largest tech companies in the US?": 0.34782608695652173,
+      "List all the factors of the given input number.": 0.28571428571428575,
+      "Correct the spelling of the word in the input.": 0.28571428571428575,
+      "Provide the correct number of days in a year": 0.28571428571428575,
+      "Ask for the name of the person in the input.": 0.2727272727272727,
+      "Given a list of book titles, alphabetize them in descending order.": 0.2608695652173913,
+      "Provide the complete name and location of the biggest river in Europe.": 0.25
+    },
+    "avg_similarity_score": 0.11124596748307312
+  },
+  {
+    "instruction": "Suggest a book recommendation based on the genre provided.",
+    "input": "Can you recommend a good thriller book?",
+    "output": "I highly recommend Gillian Flynn's Gone Girl or Stephen King's The Shining as great thriller reads.",
+    "most_similar_instructions": {
+      "Recommend a book based on this genre.": 0.6250000000000001,
+      "Suggest a book similar to the one provided.": 0.5882352941176471,
+      "Suggest a movie to watch based on the provided genre and input.": 0.5714285714285715,
+      "Recommend a travel destination based on the provided preferences": 0.5555555555555556,
+      "Create a movie review based on the provided synopsis.": 0.5555555555555556,
+      "Write a brief news headline based on the provided information": 0.5263157894736842,
+      "Ask for a recommendation based on preferences.": 0.5,
+      "Suggest a book for the user to read based on their input.": 0.4761904761904762,
+      "Suggest three potential ideas for a novel based on key words provided.": 0.4761904761904762,
+      "Recommend a good book in the romance genre.": 0.47058823529411764
+    },
+    "avg_similarity_score": 0.13582800351365742
+  },
+  {
+    "instruction": "Ask the user to rate their experience on a scale out of 10.",
+    "input": "",
+    "output": "On a scale of 1-10, how would you rate your experience?",
+    "most_similar_instructions": {
+      "Ask the user to list their top three favorite animals and respond with a fun fact about one of them.": 0.4242424242424242,
+      "Ask the user for their favorite color.": 0.4,
+      "Provide a word and ask the user to give a synonym and antonym.": 0.38461538461538464,
+      "Ask the user to choose a number and perform a simple mathematical operation on it.": 0.3571428571428571,
+      "Ask the user for their age and provide a fun fact about turning that age.": 0.3571428571428571,
+      "Ask the user to name a food and respond with a fun fact about that food.": 0.3448275862068966,
+      "Ask the user to identify the missing variable in a basic math equation and provide the answer.": 0.33333333333333337,
+      "Use the given word to generate a list of related words.": 0.33333333333333337,
+      "Ask the user to name a popular book or movie from their favorite genre and respond with a different recommendation from a similar genre.": 0.32432432432432434,
+      "Suggest a book for the user to read based on their input.": 0.32
+    },
+    "avg_similarity_score": 0.13483615044579086
+  },
+  {
+    "instruction": "Give a brief overview of the history of famous landmarks in a specific city.",
+    "input": "Can you provide a summary of the history and significance of the Eiffel Tower in Paris, France?",
+    "output": "The Eiffel Tower was built in 1889 as the entrance to the World's Fair and was only intended to be a temporary structure. However, it soon became an iconic symbol of Paris and has remained a popular tourist attraction to this day. It also served as a communication and radio tower during both World Wars.",
+    "most_similar_instructions": {
+      "Provide a brief overview of the history of the Roman Empire": 0.56,
+      "Give a brief history of the given topic.": 0.45454545454545453,
+      "Name the capital of a specific state.": 0.38095238095238093,
+      "Identify the color of a specific object.": 0.38095238095238093,
+      "Retrieve the definition of a specific term.": 0.38095238095238093,
+      "Provide the correct number of days in a year": 0.34782608695652173,
+      "Explain the function of an apostrophe in a sentence": 0.34782608695652173,
+      "Create a list of all the vowels in the given word.": 0.32,
+      "Create a sentence using the given verb in a different tense.": 0.32,
+      "Narrate a brief summary of a popular movie or TV show.": 0.32
+    },
+    "avg_similarity_score": 0.15007081960738894
+  },
+  {
+    "instruction": "Compare and contrast two given items.",
+    "input": "Compare and contrast apples and oranges.",
+    "output": "Apples and oranges are both fruits, but apples are typically red or green while oranges are usually orange in color. Apples are also generally sweeter while oranges have a tangy taste.",
+    "most_similar_instructions": {
+      "Compare two Apple products": 0.4,
+      "Add two and two together.": 0.3636363636363636,
+      "Create a sentence combining the two given phrases.": 0.28571428571428575,
+      "Combine the two given sentences using a coordinating conjunction.": 0.26666666666666666,
+      "Compare the popularity of the given two movie genres.": 0.26666666666666666,
+      "Write a creative two-sentence story using the given prompt.": 0.25,
+      "Create a shopping list with the given items and quantities.": 0.25,
+      "Combine the two given sentences using appropriate punctuation and conjunctions": 0.25,
+      "Generate a two-word noun phrase to complete the given input": 0.23529411764705885,
+      "Explain the given quote.": 0.2
+    },
+    "avg_similarity_score": 0.04372728768988419
+  },
+  {
+    "instruction": "Write a synonym for \"beautiful\".",
+    "input": "Attractive",
+    "output": "Gorgeous",
+    "most_similar_instructions": {
+      "Generate a synonym for \"happy\".": 0.6,
+      "Write a description for a product.": 0.5454545454545454,
+      "Can you provide a synonym for \"happy\"?": 0.5,
+      "Provide a synonym for the given word.": 0.5,
+      "Write a review for your favorite restaurant.": 0.5,
+      "Write a brief definition for a scientific term.": 0.4615384615384615,
+      "Can you suggest a synonym for this word?": 0.4615384615384615,
+      "Write a persuasive argument": 0.4444444444444445,
+      "Provide a synonym for the verb in the sentence.": 0.42857142857142855,
+      "Write a sentence about cars": 0.4000000000000001
+    },
+    "avg_similarity_score": 0.09964207181160763
+  },
+  {
+    "instruction": "Recommend a good restaurant in this city.",
+    "input": "San Francisco",
+    "output": "One highly-rated restaurant in San Francisco is Zazie, known for its French cuisine.",
+    "most_similar_instructions": {
+      "Provide the current time in this city.": 0.42857142857142855,
+      "How many people live in this city?": 0.42857142857142855,
+      "Recommend a book based on this genre.": 0.42857142857142855,
+      "What is the average temperature in this city?": 0.39999999999999997,
+      "How many words are in this sentence?": 0.2857142857142857,
+      "Identify the currency used in this country.": 0.2857142857142857,
+      "Write a sentence in the present tense.": 0.2857142857142857,
+      "What is the highest peak in this country?": 0.26666666666666666,
+      "Can you suggest a synonym for this word?": 0.26666666666666666,
+      "Can you list three famous landmarks from this city?": 0.25
+    },
+    "avg_similarity_score": 0.09667671638707116
+  },
+  {
+    "instruction": "What year was the movie \"Jurassic Park\" released?",
+    "input": "",
+    "output": "1993",
+    "most_similar_instructions": {
+      "What year was this event recorded?": 0.42857142857142855,
+      "Update the movie title with the year released.": 0.375,
+      "What was the highest grossing film of all time?": 0.35294117647058826,
+      "What is the capital of California?": 0.28571428571428575,
+      "What is the antonym of \"improve\"?": 0.28571428571428575,
+      "What is the factorial of this number?": 0.26666666666666666,
+      "What is the derivative of the following?": 0.26666666666666666,
+      "What is the state flower of Texas?": 0.26666666666666666,
+      "What is the chemical symbol for sodium?": 0.26666666666666666,
+      "What is the square root of 169?": 0.26666666666666666
+    },
+    "avg_similarity_score": 0.09374964413446282
+  },
+  {
+    "instruction": "Who wrote the famous novel \"Pride and Prejudice\"?",
+    "input": "",
+    "output": "Jane Austen",
+    "most_similar_instructions": {
+      "Review this book \"Pride and Prejudice\"": 0.42857142857142855,
+      "Name the famous figure.": 0.3333333333333333,
+      "Rearrange the words \"happy\" and \"birthday\"": 0.28571428571428575,
+      "Provide the current time and date.": 0.28571428571428575,
+      "Identify the genre of this novel.": 0.28571428571428575,
+      "Correct the grammar and rewrite the sentence.": 0.26666666666666666,
+      "Explain the difference between weather and climate": 0.26666666666666666,
+      "Solve the equation and provide the answer.": 0.26666666666666666,
+      "Answer the question with a famous quote.": 0.26666666666666666,
+      "Analyze the data and provide a conclusion.": 0.26666666666666666
+    },
+    "avg_similarity_score": 0.09668960563897482
+  },
+  {
+    "instruction": "Answer the question about a popular book.",
+    "input": "Who wrote \"To Kill a Mockingbird\"?",
+    "output": "Harper Lee wrote \"To Kill a Mockingbird.\"",
+    "most_similar_instructions": {
+      "Answer the geography question with a verified fact.": 0.5333333333333333,
+      "Answer the question using a well-known scientific fact.": 0.5,
+      "Answer the question using a well-known astronomy fact.": 0.5,
+      "Identify the main character in a book": 0.42857142857142855,
+      "Provide the correct answer to the factual question.": 0.39999999999999997,
+      "Provide the correct factual answer to the question.": 0.39999999999999997,
+      "Answer the question with the correct capital city of the country.": 0.33333333333333326,
+      "Complete the sentence with a suitable word.": 0.2857142857142857,
+      "Convert the given sentence into a question.": 0.2857142857142857,
+      "Provide the antonym for a given word.": 0.2857142857142857
+    },
+    "avg_similarity_score": 0.14129142879842027
+  },
+  {
+    "instruction": "Name the collective noun for a group of lions.",
+    "input": "",
+    "output": "A pride of lions is the collective noun for a group of lions.",
+    "most_similar_instructions": {
+      "Provide the antonym for a given word.": 0.375,
+      "Replace the given noun with a pronoun.": 0.375,
+      "Suggest a unique name for a new cafe.": 0.35294117647058826,
+      "Provide instructions for making a cup of coffee.": 0.35294117647058826,
+      "Can you provide the definition for a mammal?": 0.35294117647058826,
+      "Give the user instructions for making a paper airplane.": 0.3333333333333333,
+      "What is the average temperature for the month of July?": 0.3157894736842105,
+      "What is the name of the capital city of Brazil?": 0.3157894736842105,
+      "Name the famous figure.": 0.30769230769230765,
+      "Can you suggest a creative name for a new fashion brand?": 0.3
+    },
+    "avg_similarity_score": 0.15160058244416763
+  },
+  {
+    "instruction": "Identify if the given word is a palindrome or not.",
+    "input": "madam",
+    "output": "Yes, \"madam\" is a palindrome.",
+    "most_similar_instructions": {
+      "Determine if the given string is a palindrome": 0.6666666666666665,
+      "Identify if a given sentence is a palindrome.": 0.6666666666666665,
+      "Determine if the given number is odd or even.": 0.5263157894736842,
+      "Identify the word that does not belong.": 0.47058823529411764,
+      "Determine whether the given number is even or odd": 0.4210526315789474,
+      "Determine whether the given statement is true or false": 0.4210526315789474,
+      "Identify the country the given city is located in": 0.4210526315789474,
+      "Separate the given compound word.": 0.4,
+      "Classify the given input as a type of fruit or vegetable": 0.380952380952381,
+      "Explain the given proverb or saying": 0.37499999999999994
+    },
+    "avg_similarity_score": 0.15186363101489234
+  },
+  {
+    "instruction": "Which city is known for its fashion and design industry?",
+    "input": "Paris, Tokyo, New York City",
+    "output": "Paris",
+    "most_similar_instructions": {
+      "Which animal is a mammal?": 0.26666666666666666,
+      "What is the chemical symbol for sodium?": 0.23529411764705882,
+      "Which of these is a famous name?": 0.23529411764705882,
+      "Identify which word is the synonym of \"small\".": 0.22222222222222224,
+      "What is the chemical formula for this compound?": 0.22222222222222224,
+      "Which word is a synonym of the given one?": 0.2105263157894737,
+      "Which of these is an example of a mammal?": 0.2105263157894737,
+      "Which animal is the fastest land animal in the world?": 0.20000000000000004,
+      "What is the weather forecast for the given input location?": 0.20000000000000004,
+      "What is the average temperature for the month of July?": 0.20000000000000004
+    },
+    "avg_similarity_score": 0.03597678274266923
+  },
+  {
+    "instruction": "Describe the process of photosynthesis",
+    "input": "",
+    "output": "Photosynthesis is the process in which plants convert light energy into chemical energy, storing it as glucose and producing oxygen as a byproduct.",
+    "most_similar_instructions": {
+      "Describe the shape of the following object.": 0.5,
+      "Describe the main characteristics of the galaxy": 0.5,
+      "Describe the key features of a healthy diet.": 0.4615384615384615,
+      "Identify the type of sentence": 0.4000000000000001,
+      "What is the antonym of \"improve\"?": 0.3636363636363636,
+      "Correct the spelling of this word.": 0.3636363636363636,
+      "Describe the weather using specific terms.": 0.3636363636363636,
+      "Complete the following sequence of numbers.": 0.3636363636363636,
+      "Explain the meaning of this idiom.": 0.3636363636363636,
+      "Provide the definition of this word.": 0.3636363636363636
+    },
+    "avg_similarity_score": 0.13869325767196108
+  },
+  {
+    "instruction": "Generate a unique username with the following requirements: must include your birth year and be 8 characters long",
+    "input": "Birth year: 1998",
+    "output": "\"98BirthY\" or \"Birth1998\"",
+    "most_similar_instructions": {
+      "Generate a sentence with the given nouns.": 0.32,
+      "Generate a sentence with an adjective, noun, and verb.": 0.2962962962962963,
+      "Generate a sentence using the given noun and verb.": 0.2962962962962963,
+      "Create a shopping list with the given items and quantities.": 0.2857142857142857,
+      "Can you generate a palindrome using the following word: \"rotator\"": 0.2857142857142857,
+      "Create a random password with a length of 8 characters.": 0.2857142857142857,
+      "Create a multiple-choice question with the given subject and options": 0.27586206896551724,
+      "Create a random password with at least 8 characters including numbers and symbols": 0.2580645161290323,
+      "Generate a summary of the provided article by identifying the main points and key arguments.": 0.2424242424242424,
+      "Write a sentence with the word \"apple.\"": 0.24
+    },
+    "avg_similarity_score": 0.10167685817195346
+  },
+  {
+    "instruction": "Provide a word and ask the user to give a synonym and antonym.",
+    "input": "Improve",
+    "output": "Can you give me a word that means the same as \"enhance\" and the opposite of \"impair\"?",
+    "most_similar_instructions": {
+      "Ask the user to choose a number and perform a simple mathematical operation on it.": 0.42857142857142855,
+      "Ask the user to name a food and respond with a fun fact about that food.": 0.41379310344827586,
+      "Provide step-by-step instructions for a user to set up a secure and efficient home office.": 0.4000000000000001,
+      "Provide the lyrics to a popular song.": 0.4,
+      "Provide a word that rhymes with the given input": 0.3636363636363637,
+      "Provide step-by-step procedures for a user to set up a new email address.": 0.3571428571428571,
+      "Create a sentence using the given adverb to describe a verb.": 0.33333333333333337,
+      "Ask the user to name a popular book or movie from their favorite genre and respond with a different recommendation from a similar genre.": 0.32432432432432434,
+      "Instruct the user to choose a country and provide a fact about that country's culture or history.": 0.3225806451612903,
+      "Suggest a book for the user to read based on their input.": 0.32
+    },
+    "avg_similarity_score": 0.15293175021845765
+  },
+  {
+    "instruction": "Determine the number of days between May 1st and October 31st in a leap year.",
+    "input": "",
+    "output": "184 days",
+    "most_similar_instructions": {
+      "Provide the correct number of days in a year": 0.5833333333333334,
+      "Tell me the number of days in a leap year and provide an example of a leap year.": 0.4848484848484848,
+      "Determine the missing number in the pattern.": 0.36363636363636365,
+      "Determine the length of the input text in characters.": 0.33333333333333337,
+      "Explain the function of an apostrophe in a sentence": 0.33333333333333337,
+      "Count the number of words in the given sentence.": 0.33333333333333337,
+      "Determine the day of the week for a given date.": 0.32,
+      "Determine the missing number in the sequence: 2, 5, 8, __, 14": 0.30769230769230765,
+      "Calculate the age of a person based on their birth year.": 0.30769230769230765,
+      "Can you tell me the difference between a herb and a spice?": 0.2962962962962963
+    },
+    "avg_similarity_score": 0.12860287923083558
+  },
+  {
+    "instruction": "Translate the phrase \"Good morning\" into Spanish",
+    "input": "What is \"Good morning\" in Spanish?",
+    "output": "\"Good morning\" in Spanish is \"Buenos d\u00edas.\"",
+    "most_similar_instructions": {
+      "Translate the phrase from Spanish to English.": 0.5714285714285714,
+      "Translate the given phrase from English to Spanish": 0.5333333333333333,
+      "Translate the given phrase into a different language.": 0.5333333333333333,
+      "Translate this phrase into French.": 0.5,
+      "Translate the phrase to another language.": 0.4615384615384615,
+      "Translate the sentence \"My dog loves to chase squirrels\" into Spanish.": 0.4444444444444444,
+      "Translate \"Hello, how are you?\" into Spanish.": 0.42857142857142855,
+      "Combine the two sentences into one.": 0.30769230769230765,
+      "Translate the input sentence to German.": 0.30769230769230765,
+      "Turn the text into lowercase format.": 0.30769230769230765
+    },
+    "avg_similarity_score": 0.09279528063587518
+  },
+  {
+    "instruction": "Provide a list of recommended educational resources for learning a new language.",
+    "input": "A user wants to learn Spanish and is looking for online resources. Can you provide a list of credible and effective language learning websites?",
+    "output": "Some popular and reputable websites for learning Spanish are Duolingo, Rosetta Stone, and Babbel. Additionally, practicing with native speakers through language exchange platforms like Tandem can greatly improve fluency. Don't forget to also utilize resources like podcasts, YouTube channels, and online communities for additional practice and immersion.",
+    "most_similar_instructions": {
+      "Provide a list of essential items for a beginner hiker.": 0.5454545454545454,
+      "Provide a description of a new product.": 0.5263157894736842,
+      "Provide a list of must-visit places for someone planning a trip to a popular city.": 0.42857142857142855,
+      "Given a list of ingredients, provide instructions for making a delicious soup.": 0.4166666666666667,
+      "Create a list of pros and cons for implementing a four-day workweek.": 0.4,
+      "Provide a piece of advice for increasing productivity.": 0.4,
+      "Suggest a unique name for a new cafe.": 0.4,
+      "Given a list of movies, recommend a must-watch movie.": 0.3636363636363636,
+      "Help someone draft a persuasive advertisement for a new product.": 0.3636363636363636,
+      "Create a list of items.": 0.35294117647058826
+    },
+    "avg_similarity_score": 0.10302935934336681
+  },
+  {
+    "instruction": "Explain the given proverb or saying",
+    "input": "\"A penny saved is a penny earned.\"",
+    "output": "This proverb means that it is important to save money whenever you can, no matter how small the amount, because it will add up and be beneficial in the long run.",
+    "most_similar_instructions": {
+      "Explain the given concept or term.": 0.6666666666666666,
+      "Complete the given proverb.": 0.6,
+      "Explain how to solve the given equation.": 0.4615384615384615,
+      "Explain the meaning of the given acronym.": 0.4615384615384615,
+      "Simplify the given fraction.": 0.4,
+      "Determine if the given number is odd or even.": 0.4,
+      "Classify the given statement.": 0.4,
+      "Simplify the given math equation.": 0.3636363636363636,
+      "Answer the given analogy question.": 0.3636363636363636,
+      "Classify the given input as a type of fruit or vegetable": 0.3529411764705882
+    },
+    "avg_similarity_score": 0.1266399698381552
+  },
+  {
+    "instruction": "Use the input text to write a short summary.",
+    "input": "The Three Little Pigs is a well-known fairy tale about three pigs who build homes out of different materials in order to protect themselves from the big bad wolf.",
+    "output": "The Three Little Pigs is a popular fairy tale about three pigs who build homes out of different materials to protect themselves from the big bad wolf.",
+    "most_similar_instructions": {
+      "Use the given verb to write a sentence in past tense": 0.5,
+      "Write a short summary of the given book.": 0.47058823529411764,
+      "Use the given words to create a simile.": 0.47058823529411764,
+      "Translate the input sentence to German.": 0.4,
+      "Rearrange the words in the input to form a complete sentence.": 0.39999999999999997,
+      "Use the given word to generate a list of related words.": 0.39999999999999997,
+      "Provide the lyrics to a popular song.": 0.375,
+      "Rearrange the letters to form a word.": 0.375,
+      "Write a summary of a current event.": 0.375,
+      "Use the word \"often\" in a sentence.": 0.375
+    },
+    "avg_similarity_score": 0.15071292378686735
+  },
+  {
+    "instruction": "Write a persuasive argument",
+    "input": "Why everyone should adopt a pet from a shelter",
+    "output": "Adopting a pet from a shelter is not only a compassionate and fulfilling choice, but it also helps save the lives of animals in need and supports responsible animal care practices.",
+    "most_similar_instructions": {
+      "Write a sentence using punctuation.": 0.4444444444444445,
+      "Write a sentence about cars": 0.4444444444444445,
+      "Write a sentence with the word \"apple.\"": 0.36363636363636365,
+      "Write a sentence in the present tense.": 0.36363636363636365,
+      "Write a brief description of your favorite hobby.": 0.3333333333333333,
+      "Write a 5-word sentence using the given input.": 0.30769230769230765,
+      "Help someone draft a persuasive advertisement for a new product.": 0.28571428571428575,
+      "Help someone write a professional email requesting a job interview.": 0.28571428571428575,
+      "Write a question that has the given input as the answer.": 0.26666666666666666,
+      "Give a related word.": 0.25
+    },
+    "avg_similarity_score": 0.07600557466898175
+  },
+  {
+    "instruction": "Write a question that has the given input as the answer.",
+    "input": "10 meters",
+    "output": "How long is 10 meters?",
+    "most_similar_instructions": {
+      "Write a 5-word sentence using the given input.": 0.5,
+      "Write a java code that will set the given number to be within the given bounds": 0.4444444444444444,
+      "Form a question using the given phrase.": 0.4444444444444444,
+      "Generate a sentence that best explains the provided input.": 0.39999999999999997,
+      "Provide a synonym for the given word.": 0.33333333333333326,
+      "Write a sentence in the present tense.": 0.33333333333333326,
+      "Write a sentence with the word \"apple.\"": 0.33333333333333326,
+      "Provide a corrected version of the given sentence.": 0.3157894736842105,
+      "Provide the correct answer to the given input": 0.3157894736842105,
+      "Convert the given input from celsius to fahrenheit.": 0.3157894736842105
+    },
+    "avg_similarity_score": 0.14847855222067086
+  },
+  {
+    "instruction": "Calculate tip for a $50 meal at a 20% tip rate.",
+    "input": "How much is a 20% tip for a $50 meal?",
+    "output": "The tip amount should be $10.",
+    "most_similar_instructions": {
+      "Provide instructions for making a healthy and delicious meal for a beginner cook.": 0.33333333333333337,
+      "Help someone plan a nutritious and balanced meal plan for a week.": 0.2608695652173913,
+      "Assist a user in making healthy and affordable meal choices while at the grocery store.": 0.23076923076923075,
+      "Provide the antonym for a given word.": 0.2222222222222222,
+      "Provide a list of must-visit places for someone planning a trip to a popular city.": 0.2222222222222222,
+      "Provide instructions for setting up a tent.": 0.2222222222222222,
+      "Provide step-by-step instructions for a user to set up a secure and efficient home office.": 0.21428571428571427,
+      "Provide instructions for making a cup of coffee.": 0.2105263157894737,
+      "Generate a sentence about a famous historical event.": 0.2105263157894737,
+      "Suggest a unique name for a new cafe.": 0.2105263157894737
+    },
+    "avg_similarity_score": 0.06517583593587276
+  },
+  {
+    "instruction": "Name a famous painting from the Renaissance period",
+    "input": "",
+    "output": "The Mona Lisa, painted by Leonardo da Vinci, is one of the most celebrated works from the Italian Renaissance.",
+    "most_similar_instructions": {
+      "Name a famous scientist from the 19th century.": 0.625,
+      "Analyze a famous painting.": 0.5,
+      "Name a famous novel by its author.": 0.39999999999999997,
+      "Name a popular food from a specific country.": 0.375,
+      "Generate a sentence that describes the given famous painting.": 0.35294117647058826,
+      "Name the famous figure.": 0.3333333333333333,
+      "Write a sentence using a specific word from the input.": 0.33333333333333326,
+      "Identify the artist of the famous painting \"The Starry Night\"": 0.33333333333333326,
+      "Identify which word belongs to a different category from the others.": 0.3157894736842105,
+      "Name a vegetable that is green.": 0.28571428571428575
+    },
+    "avg_similarity_score": 0.1369937908731138
+  },
+  {
+    "instruction": "Write the word \"cat\" backwards",
+    "input": "Can you help me spell \"cat\" backwards?",
+    "output": "Sure, the correct spelling is \"tac\".",
+    "most_similar_instructions": {
+      "Generate a rhyme for the word \"cat\".": 0.5,
+      "Write a sentence with the word \"apple.\"": 0.5,
+      "Write a creative sentence using the word \"adventure\"": 0.4615384615384615,
+      "Predict the missing word.": 0.4444444444444445,
+      "Select the correct word.": 0.4444444444444445,
+      "Can you write a simile using the word \"moon\"?": 0.42857142857142855,
+      "Write an open-ended sentence with the word \"adventure\"": 0.42857142857142855,
+      "Write a sentence using the word \"delightful\" in past tense.": 0.4,
+      "Write the definition of the given word in your own words.": 0.37499999999999994,
+      "Write a sentence using the word \"fierce\" with a positive connotation.": 0.37499999999999994
+    },
+    "avg_similarity_score": 0.12965343432931536
+  },
+  {
+    "instruction": "What is the weather like today?",
+    "input": "",
+    "output": "Today's forecast is sunny with a high of 78\u00b0F and a low of 62\u00b0F.",
+    "most_similar_instructions": {
+      "What is the opposite of \"joy\"?": 0.5,
+      "What is the synonym for \"benefit\"?": 0.5,
+      "What is the capital of California?": 0.5,
+      "What is the antonym of \"improve\"?": 0.5,
+      "What is the weather forecast for the given input location?": 0.5,
+      "What is the capital of this country?": 0.4615384615384615,
+      "What is the square root of 169?": 0.4615384615384615,
+      "What is the state flower of Texas?": 0.4615384615384615,
+      "What is the sine of 30 degrees?": 0.4615384615384615,
+      "What is the chemical symbol for sodium?": 0.4615384615384615
+    },
+    "avg_similarity_score": 0.11244415923313851
+  },
+  {
+    "instruction": "Generate a valid credit card number.",
+    "input": "Generate a Mastercard number.",
+    "output": "5366259538389578",
+    "most_similar_instructions": {
+      "Generate a random 6 digit number": 0.5,
+      "Generate a random number between 1 and 50.": 0.42857142857142855,
+      "Generate a random number using the given range.": 0.42857142857142855,
+      "Generate a random math equation.": 0.3636363636363636,
+      "Generate a synonym for \"happy\".": 0.3636363636363636,
+      "Generate a question about sports.": 0.3636363636363636,
+      "Is this a prime number?": 0.3636363636363636,
+      "Generate a random 3-digit number and add 5 to it.": 0.3529411764705882,
+      "Generate a list of similar words.": 0.3333333333333333,
+      "Generate a random 5-digit code.": 0.3333333333333333
+    },
+    "avg_similarity_score": 0.0768158685908732
+  },
+  {
+    "instruction": "How many planets in our solar system have rings?",
+    "input": "",
+    "output": "Four planets in our solar system have rings: Saturn, Jupiter, Uranus, and Neptune.",
+    "most_similar_instructions": {
+      "How many days are in February?": 0.4,
+      "How many people live in this city?": 0.375,
+      "How many legs does a spider have?": 0.375,
+      "How many words are in this sentence?": 0.375,
+      "How many players are on a basketball court at one time?": 0.19999999999999998,
+      "How times does the letter \"r\" appear in the word \"strawberry\"": 0.19999999999999998,
+      "Identify the currency used in this country.": 0.125,
+      "Write a sentence in the present tense.": 0.125,
+      "Recommend a good restaurant in this city.": 0.125,
+      "Provide the current time in this city.": 0.125
+    },
+    "avg_similarity_score": 0.029902702319801584
+  },
+  {
+    "instruction": "Combine the two given sentences using appropriate punctuation and conjunctions",
+    "input": "She likes hiking. She hates running.",
+    "output": "She likes hiking, but she hates running.",
+    "most_similar_instructions": {
+      "Combine the two sentences into one.": 0.5,
+      "Define the term using appropriate vocabulary.": 0.37499999999999994,
+      "Combine the two words \"green\" and \"apple\" to make a compound word.": 0.3636363636363636,
+      "Complete the analogy using an appropriate term.": 0.3529411764705882,
+      "Generate a sentence using the given noun and verb.": 0.3157894736842105,
+      "Edit the given sentence to remove all punctuation marks.": 0.3157894736842105,
+      "Write a sentence using the given verb and preposition.": 0.3157894736842105,
+      "Spell check the given word and provide the correct spelling.": 0.3,
+      "Create a shopping list with the given items and quantities.": 0.3,
+      "Simplify the given fraction.": 0.28571428571428575
+    },
+    "avg_similarity_score": 0.12146021813027005
+  },
+  {
+    "instruction": "Re-order the sentence in correct grammar and punctuation",
+    "input": "watches football on Sundays Mark",
+    "output": "Mark watches football on Sundays.",
+    "most_similar_instructions": {
+      "Rearrange the given sentence in the correct order.": 0.47058823529411764,
+      "Rewrite the given sentence in passive voice.": 0.375,
+      "Correct the grammar and rewrite the sentence.": 0.375,
+      "Edit the sentence to correct any grammatical errors.": 0.35294117647058826,
+      "Rewrite the given sentence in a formal tone": 0.35294117647058826,
+      "Rewrite the sentence to address the grammar mistake": 0.35294117647058826,
+      "Edit the sentence to correct the spelling error.": 0.35294117647058826,
+      "Edit the following sentence to make it grammatically correct: \"Her hobbies is reading and writing.\"": 0.33333333333333337,
+      "Complete the sentence with proper punctuation: The dog barked ____": 0.3333333333333333,
+      "Edit the given sentence to remove all punctuation marks.": 0.3333333333333333
+    },
+    "avg_similarity_score": 0.12605775831307706
+  },
+  {
+    "instruction": "Write a sentence in the present tense.",
+    "input": "",
+    "output": "I am currently writing a sentence in the present tense.",
+    "most_similar_instructions": {
+      "Create a sentence using the present perfect tense": 0.6666666666666666,
+      "Write a sentence with the word \"apple.\"": 0.5714285714285714,
+      "Write a sentence about cars": 0.5,
+      "Write a sentence using punctuation.": 0.5,
+      "Write a 5-word sentence using the given input.": 0.5,
+      "Generate a sentence using the word \"exercise\".": 0.42857142857142855,
+      "Please write a conversation between two friends discussing their plans for the weekend.": 0.3,
+      "Predict the next number in the sequence.": 0.2857142857142857,
+      "Rewrite the sentence using the given conjunction.": 0.2857142857142857,
+      "Create a simile using the word \"bright\".": 0.2857142857142857
+    },
+    "avg_similarity_score": 0.1620638059612987
+  },
+  {
+    "instruction": "Provide the missing punctuation in the sentence.",
+    "input": "I want to go for a walk can we go to the park",
+    "output": "I want to go for a walk. Can we go to the park?",
+    "most_similar_instructions": {
+      "Correct the punctuation mistake in the given sentence": 0.6666666666666666,
+      "Provide a synonym for the verb in the sentence.": 0.6250000000000001,
+      "Determine the missing number in the pattern.": 0.5714285714285714,
+      "Identify the different components in the sentence.": 0.5714285714285714,
+      "Find the longest word in the following sentence.": 0.5333333333333333,
+      "Provide the missing word to complete the phrase.": 0.5333333333333333,
+      "Identify the missing word from the given sentence.": 0.5333333333333333,
+      "Reverse the order of the words in the sentence.": 0.5,
+      "Count the number of words in the given sentence.": 0.5,
+      "Identify the incorrect verb tense in the given sentence.": 0.5
+    },
+    "avg_similarity_score": 0.17702828512009963
+  },
+  {
+    "instruction": "What is the square root of 169?",
+    "input": "169",
+    "output": "13",
+    "most_similar_instructions": {
+      "What is the capital of California?": 0.6153846153846153,
+      "What is the capital of this country?": 0.5714285714285714,
+      "What is the factorial of this number?": 0.5714285714285714,
+      "What is the derivative of the following?": 0.5714285714285714,
+      "What are the remaining 7 wonders of the world from this list?": 0.3157894736842105,
+      "Provide the correct number of days in a year": 0.25,
+      "Answer the question with the correct capital city of the country.": 0.2222222222222222,
+      "Given the following list of words, create a sentence with them: brave, lion, courage, king": 0.18181818181818182,
+      "Correct the grammar error.": 0.18181818181818182,
+      "Please solve the following equation using the Order of Operations Method: 5 + (9 * 3 / 5) + 24 - 2": 0.16666666666666666
+    },
+    "avg_similarity_score": 0.15442678349725528
+  },
+  {
+    "instruction": "Reverse the order of the words in the sentence.",
+    "input": "The black cat sat on the mat.",
+    "output": "Mat the on sat cat black the.",
+    "most_similar_instructions": {
+      "Count the number of words in the given sentence.": 0.6666666666666666,
+      "Correct the spelling of the word in the input.": 0.5555555555555556,
+      "Determine the polarity of the sentence.": 0.5333333333333333,
+      "Ask for the name of the person in the input.": 0.5263157894736842,
+      "Analyze the sentiment of the input sentence.": 0.5,
+      "Rearrange the words in the input to form a complete sentence.": 0.5,
+      "Reorder the words in the given sentence to make it grammatically correct.": 0.4761904761904762,
+      "Correct the punctuation mistake in the given sentence": 0.47058823529411764,
+      "Identify the incorrect verb tense in the given sentence.": 0.4444444444444444,
+      "Rearrange the words in the given input sentence to create a more coherent meaning.": 0.43478260869565216
+    },
+    "avg_similarity_score": 0.17407355475319808
+  },
+  {
+    "instruction": "Which of the following is a type of fruit: mango, tomato, or potato?",
+    "input": "A fruit",
+    "output": "Answer is: Mango is a type of fruit.",
+    "most_similar_instructions": {
+      "Classify the given input as a type of fruit or vegetable": 0.4999999999999999,
+      "Which of these is a famous name?": 0.4,
+      "Rearrange the letters in the given word to create a new word that is a type of fruit.": 0.3870967741935484,
+      "Which word is a synonym of the given one?": 0.3636363636363637,
+      "Which of these is an example of a mammal?": 0.3636363636363637,
+      "Identify if the given word is a palindrome or not.": 0.34782608695652173,
+      "Which animal is a mammal?": 0.33333333333333337,
+      "Identify the type of sentence": 0.33333333333333337,
+      "Complete the following sequence of numbers.": 0.3157894736842105,
+      "What is the derivative of the following?": 0.3
+    },
+    "avg_similarity_score": 0.12868463624041643
+  },
+  {
+    "instruction": "Translate the given phrase from English to Spanish",
+    "input": "Good morning.",
+    "output": "Buenos d\u00edas.",
+    "most_similar_instructions": {
+      "Translate the phrase from Spanish to English.": 0.6666666666666666,
+      "Convert the given temperature from Fahrenheit to Celsius.": 0.5,
+      "Translate the input sentence to German.": 0.42857142857142855,
+      "Translate this to Punjabi": 0.3333333333333333,
+      "Identify the country of the given landmark.": 0.26666666666666666,
+      "Explain how to solve the given equation.": 0.26666666666666666,
+      "Provide a synonym for the given word.": 0.26666666666666666,
+      "Rewrite the sentence using the given conjunction.": 0.26666666666666666,
+      "Provide the answer to the given addition problem": 0.25,
+      "Provide the correct answer to the given input": 0.25
+    },
+    "avg_similarity_score": 0.12778956805812672
+  },
+  {
+    "instruction": "Create a sentence using these words.",
+    "input": "Apple, computer, code",
+    "output": "I am coding on my computer using an apple.",
+    "most_similar_instructions": {
+      "Create a sentence using this keyword.": 0.6666666666666666,
+      "Create a sentence using the present perfect tense": 0.5714285714285715,
+      "Create a rhyming sentence using the given word.": 0.5714285714285715,
+      "Write a sentence using punctuation.": 0.5454545454545454,
+      "Generate a sentence using the word \"exercise\".": 0.4615384615384615,
+      "Create a story using the given characters.": 0.4615384615384615,
+      "Create a simile using the word \"bright\".": 0.4615384615384615,
+      "Complete the sentence using your own words.": 0.4615384615384615,
+      "Create a possessive noun using the input word.": 0.42857142857142855,
+      "Create a shortened version of the input sentence.": 0.42857142857142855
+    },
+    "avg_similarity_score": 0.1060902835619531
+  },
+  {
+    "instruction": "Use the given verb to write a sentence in past tense",
+    "input": "jump",
+    "output": "She jumped over the puddle and landed safely on the other side.",
+    "most_similar_instructions": {
+      "Write a sentence using the word \"delightful\" in past tense.": 0.5714285714285713,
+      "Rewrite the given input in past tense": 0.5555555555555556,
+      "Write a sentence in the present tense.": 0.5555555555555556,
+      "Rearrange the given words to make a sentence.": 0.5263157894736842,
+      "Convert the given sentence into the past tense.": 0.5263157894736842,
+      "Use the given words to create a simile.": 0.5263157894736842,
+      "Rewrite the given sentence in the present progressive tense": 0.5,
+      "Use the given words to fill in the blanks.": 0.5,
+      "Using the given adjectives, write a sentence describing a dog.": 0.47619047619047616,
+      "Rewrite the sentence using past tense.": 0.4705882352941177
+    },
+    "avg_similarity_score": 0.1709741678511417
+  },
+  {
+    "instruction": "Describe the steps to bake a chocolate cake.",
+    "input": "Please describe the steps to bake a chocolate cake.",
+    "output": "To bake a delicious chocolate cake, you will need to gather ingredients such as flour, sugar, cocoa powder, and butter. Then, mix the dry ingredients together, add in the wet ingredients, and mix until smooth. Pour the batter into a greased pan and bake for 30 minutes. Let it cool before adding frosting and serving.",
+    "most_similar_instructions": {
+      "Rearrange the letters to form a word.": 0.39999999999999997,
+      "Describe the key features of a healthy diet.": 0.375,
+      "Rearrange the given words to make a sentence.": 0.375,
+      "List the next steps to complete the task.": 0.375,
+      "Rearrange the words to form a well-known proverb.": 0.35294117647058826,
+      "Combine the words \"yellow\" and \"green\" to form a new color.": 0.3157894736842105,
+      "Rearrange the words in the input to form a complete sentence.": 0.3157894736842105,
+      "Combine the two words \"green\" and \"apple\" to make a compound word.": 0.3,
+      "Change this statement to a question.": 0.28571428571428575,
+      "Describe the weather using specific terms.": 0.28571428571428575
+    },
+    "avg_similarity_score": 0.1432863978763495
+  },
+  {
+    "instruction": "Make a list of the top 10 highest mountains in the world.",
+    "input": "What are the top 10 highest mountains in the world?",
+    "output": "According to the latest data, the top 10 highest mountains in the world are Mount Everest, K2, Kangchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri, Manaslu, and Nanga Parbat.",
+    "most_similar_instructions": {
+      "List the top 5 longest rivers in the world.": 0.5714285714285715,
+      "Please list the top three most visited countries in the world.": 0.5217391304347826,
+      "Create a list of all the vowels in the given word.": 0.5217391304347826,
+      "Generate a list of the first 10 prime numbers.": 0.4761904761904762,
+      "Input the name of the longest river in the world.": 0.45454545454545453,
+      "Please provide a list of the top 3 most populated countries.": 0.43478260869565216,
+      "What is the name of the third largest continent in the world?": 0.4166666666666667,
+      "Create a list of 5 countries in Africa.": 0.4,
+      "Please list the five largest countries in the world according to land area.": 0.4,
+      "Please provide a list of the top 5 largest countries by land area in order from largest to smallest.": 0.3870967741935484
+    },
+    "avg_similarity_score": 0.1554824169847761
+  },
+  {
+    "instruction": "Revise this sentence to use parallel structure.",
+    "input": "My favorite hobbies are hiking, reading, and to go swimming.",
+    "output": "My favorite hobbies are hiking, reading, and swimming.",
+    "most_similar_instructions": {
+      "Change this sentence to future tense.": 0.4615384615384615,
+      "Rewrite this sentence to be more concise.": 0.42857142857142855,
+      "Rewrite this sentence to make it sound more formal.": 0.375,
+      "Change this sentence from active voice to passive voice.": 0.375,
+      "Translate this to Punjabi": 0.36363636363636365,
+      "Translate the input sentence to German.": 0.30769230769230765,
+      "Remove all punctuation from this sentence": 0.30769230769230765,
+      "Transform this sentence into past tense.": 0.30769230769230765,
+      "Change this statement to a question.": 0.30769230769230765,
+      "Correct this sentence for grammatical errors.": 0.30769230769230765
+    },
+    "avg_similarity_score": 0.05769147032491695
+  },
+  {
+    "instruction": "List the top 5 longest rivers in the world.",
+    "input": "",
+    "output": "The top 5 longest rivers in the world are the Nile, Amazon, Yangtze, Mississippi-Missouri, and Yenisei-Angara-Selenga.",
+    "most_similar_instructions": {
+      "Find the longest word in the following sentence.": 0.47058823529411764,
+      "Please list the five largest countries in the world according to land area.": 0.4545454545454546,
+      "What is the longest river in the United States?": 0.4444444444444444,
+      "List the top 5 highest grossing films of all time.": 0.4210526315789474,
+      "Which animal is the fastest land animal in the world?": 0.4210526315789474,
+      "Identify the longest river in Africa": 0.4,
+      "Can you list the five largest tech companies in the US?": 0.39999999999999997,
+      "Create a list of all the vowels in the given word.": 0.39999999999999997,
+      "Identify the different components in the sentence.": 0.375,
+      "Add the two numbers in the input.": 0.375
+    },
+    "avg_similarity_score": 0.1369614878584508
+  },
+  {
+    "instruction": "Provide the name of a popular tourist destination.",
+    "input": "Where is an ideal spot for vacation?",
+    "output": "Bora Bora is an ideal spot for vacation, known for its crystal clear waters and overwater bungalows.",
+    "most_similar_instructions": {
+      "Provide the summary of a popular book.": 0.6666666666666666,
+      "Provide the lyrics to a popular song.": 0.5333333333333333,
+      "Provide the definition of a common phrase.": 0.5333333333333333,
+      "Give me a popular tourist destination in India": 0.5,
+      "Provide the date of a significant event in history.": 0.47058823529411764,
+      "Provide the correct number of days in a year": 0.47058823529411764,
+      "Provide the correct usage of a commonly confused word.": 0.47058823529411764,
+      "Provide a description and review of a popular local restaurant.": 0.4444444444444445,
+      "Name a popular type of cuisine.": 0.42857142857142855,
+      "Provide the definition of this word.": 0.42857142857142855
+    },
+    "avg_similarity_score": 0.16173092979658965
+  },
+  {
+    "instruction": "Determine the plural form of the given noun",
+    "input": "Cat",
+    "output": "Cats.",
+    "most_similar_instructions": {
+      "Determine the polarity of the sentence.": 0.5714285714285715,
+      "Identify the country of the given landmark.": 0.5333333333333333,
+      "Calculate the square root of the given number": 0.5,
+      "Determine the root word for the given word": 0.5,
+      "What is the derivative of the following?": 0.39999999999999997,
+      "Identify the main idea of the paragraph.": 0.39999999999999997,
+      "Rewrite the sentence using the given conjunction.": 0.39999999999999997,
+      "Provide the correct answer to the given input": 0.375,
+      "Correct the punctuation mistake in the given sentence": 0.375,
+      "Provide a corrected version of the given sentence.": 0.375
+    },
+    "avg_similarity_score": 0.165622844508108
+  },
+  {
+    "instruction": "Calculate the total cost of a grocery list.",
+    "input": "apples: $1.50, chicken: $5.00, bread: $2.00, milk: $3.00",
+    "output": "$11.50",
+    "most_similar_instructions": {
+      "Calculate the volume of a rectangular prism with given dimensions.": 0.4444444444444445,
+      "Calculate the area of a rectangle given the length and width.": 0.4210526315789474,
+      "Calculate the age of a person based on their birth year.": 0.4210526315789474,
+      "Retrieve the definition of a specific term.": 0.39999999999999997,
+      "Provide the summary of a popular book.": 0.39999999999999997,
+      "Name the capital of a specific state.": 0.39999999999999997,
+      "Calculate the square root of the given number": 0.375,
+      "Create a grocery list using the given input.": 0.375,
+      "Calculate the sum of the given input numbers.": 0.375,
+      "Describe the key features of a healthy diet.": 0.375
+    },
+    "avg_similarity_score": 0.1513042586837142
+  },
+  {
+    "instruction": "Encode a given text into HTML code.",
+    "input": "How would I turn \"Hello World\" into a heading using HTML?",
+    "output": "<h1>Hello World</h1>",
+    "most_similar_instructions": {
+      "Generate a random 5-digit code.": 0.30769230769230765,
+      "Convert the given sentence into a question.": 0.2857142857142857,
+      "Form a question using the given phrase.": 0.2857142857142857,
+      "Provide a synonym for the given word.": 0.2857142857142857,
+      "Provide the antonym for a given word.": 0.2857142857142857,
+      "Provide a corrected version of the given sentence.": 0.26666666666666666,
+      "Generate a phrase that contains the given input.": 0.26666666666666666,
+      "Write a 5-word sentence using the given input.": 0.25,
+      "Write a short story based on the given prompt.": 0.25,
+      "Calculate the volume of a rectangular prism with given dimensions.": 0.23529411764705882
+    },
+    "avg_similarity_score": 0.07872821890588325
+  },
+  {
+    "instruction": "Name a popular food from a specific country.",
+    "input": "Italy",
+    "output": "Pizza is a popular food from Italy that is loved worldwide.",
+    "most_similar_instructions": {
+      "Create a factually accurate sentence about a famous artist": 0.23529411764705882,
+      "Help someone write a professional email requesting a job interview.": 0.22222222222222224,
+      "Help someone draft a persuasive advertisement for a new product.": 0.22222222222222224,
+      "Help someone craft a compelling personal statement for a college application.": 0.2105263157894737,
+      "What is the area of a circle with a radius of 5?": 0.2,
+      "Help someone plan a nutritious and balanced meal plan for a week.": 0.2,
+      "Generate a random adjective and use it to describe a cup of coffee.": 0.1904761904761905,
+      "Provide a user with useful tips for preparing for a successful job interview.": 0.1904761904761905,
+      "Help a user draft a professional LinkedIn profile that highlights their skills and experience.": 0.18181818181818182,
+      "Write a short story that starts with \"Once upon a time, there was a beautiful princess.\"": 0.16666666666666666
+    },
+    "avg_similarity_score": 0.07468047870234834
+  },
+  {
+    "instruction": "Ask for a humorous joke or riddle.",
+    "input": "",
+    "output": "Why couldn't the bicycle stand up by itself? Because it was two-tired.",
+    "most_similar_instructions": {
+      "Ask for a recommendation based on preferences.": 0.42857142857142855,
+      "Ask for an opinion on a given topic.": 0.39999999999999997,
+      "Ask for a weather report for a specific location.": 0.375,
+      "Provide instructions for a recipe.": 0.3333333333333333,
+      "Offer advice for a situation.": 0.3333333333333333,
+      "Suggest article ideas for a blog or magazine focused on sustainable living.": 0.3157894736842105,
+      "Write a description for a product.": 0.30769230769230765,
+      "Explain a popular myth or legend.": 0.30769230769230765,
+      "Share tips for improving a certain skill.": 0.2857142857142857,
+      "Ask for the user's favorite dish.": 0.2857142857142857
+    },
+    "avg_similarity_score": 0.08065840360720708
+  },
+  {
+    "instruction": "Evaluate the input math equation.",
+    "input": "9 + 6 * 5 - 2",
+    "output": "53",
+    "most_similar_instructions": {
+      "Solve the math problem.": 0.4444444444444445,
+      "Translate the input sentence to German.": 0.3636363636363636,
+      "Explain how to solve the given equation.": 0.3333333333333333,
+      "Provide an antonym for the given input": 0.3333333333333333,
+      "Add the two numbers in the input.": 0.3333333333333333,
+      "Find the antonym of the input word.": 0.3333333333333333,
+      "Solve the following equation: 2x + 4 = 12": 0.3333333333333333,
+      "Rewrite the given input in past tense": 0.3333333333333333,
+      "Analyze the sentiment of the input sentence.": 0.3333333333333333,
+      "Generate a description of the input photo": 0.3333333333333333
+    },
+    "avg_similarity_score": 0.11906481053111138
+  },
+  {
+    "instruction": "Suggest a movie to watch based on the provided genre and input.",
+    "input": "Action movie, with a thrilling plot",
+    "output": "I recommend \"Mad Max: Fury Road\" for an action-packed and thrilling movie experience.",
+    "most_similar_instructions": {
+      "Suggest a book similar to the one provided.": 0.5,
+      "Suggest a book for the user to read based on their input.": 0.5,
+      "Recommend a travel destination based on the provided preferences": 0.4761904761904762,
+      "Suggest a suitable color for the provided input item.": 0.4761904761904762,
+      "Write a brief news headline based on the provided information": 0.45454545454545453,
+      "Create a 5-item grocery list based on the input.": 0.45454545454545453,
+      "Recommend a book based on this genre.": 0.4210526315789474,
+      "Suggest a preposition to complete the sentence.": 0.4210526315789474,
+      "Generate a question based on the given topic.": 0.4,
+      "Generate a sentence that best explains the provided input.": 0.380952380952381
+    },
+    "avg_similarity_score": 0.14044844640136284
+  },
+  {
+    "instruction": "Suggest the most cost-effective mode of transportation for a trip from New York City to Los Angeles.",
+    "input": "Flight, Train, Car",
+    "output": "Train",
+    "most_similar_instructions": {
+      "What is the average temperature in Fahrenheit for August in New York City?": 0.3225806451612903,
+      "Suggest a unique name for a new cafe.": 0.30769230769230765,
+      "Provide a list of must-visit places for someone planning a trip to a popular city.": 0.29411764705882354,
+      "Determine the day of the week for a given date.": 0.2857142857142857,
+      "Can you suggest a creative name for a new fashion brand?": 0.27586206896551724,
+      "Provide the antonym for a given word.": 0.24,
+      "Name the capital of a specific state.": 0.24,
+      "Provide the summary of a popular book.": 0.24,
+      "Retrieve the definition of a specific term.": 0.24,
+      "Translate the phrase from Spanish to English.": 0.24
+    },
+    "avg_similarity_score": 0.11532596331413354
+  },
+  {
+    "instruction": "Solve the math problem.",
+    "input": "8 + 12",
+    "output": "",
+    "most_similar_instructions": {
+      "Explain how to solve the given equation.": 0.36363636363636365,
+      "Solve the following equation: 2x + 4 = 12": 0.36363636363636365,
+      "Provide the answer to the given addition problem": 0.3333333333333333,
+      "Select the correct word.": 0.25,
+      "Define the term \"polarization\"": 0.25,
+      "Correct the grammar error.": 0.25,
+      "Complete the given proverb.": 0.25,
+      "Predict the missing word.": 0.25,
+      "Name the famous figure.": 0.25,
+      "Fill in the missing pronoun.": 0.22222222222222224
+    },
+    "avg_similarity_score": 0.1153968048186358
+  },
+  {
+    "instruction": "Find the synonym of <noinput>",
+    "input": "speak",
+    "output": "talk",
+    "most_similar_instructions": {
+      "Find the cube root of 27": 0.5454545454545454,
+      "Find the definition of a word.": 0.5454545454545454,
+      "Find the antonym of the input word.": 0.5,
+      "Find the synonym for the word \"happiness\".": 0.5,
+      "Find the gradient of the given line": 0.5,
+      "Identify which word is the synonym of \"small\".": 0.4615384615384615,
+      "Find the average of the given list of numbers": 0.42857142857142855,
+      "Can you find the square root of this number?": 0.42857142857142855,
+      "Describe the process of photosynthesis": 0.4000000000000001,
+      "Identify the type of sentence": 0.4000000000000001
+    },
+    "avg_similarity_score": 0.13951276513123956
+  },
+  {
+    "instruction": "Write a persuasive letter using the input prompt.",
+    "input": "Prompt: Write a letter to your local government advocating for stricter laws on smoking in public spaces.",
+    "output": "Dear [Local Government Representative], I strongly urge for stricter laws on smoking in public spaces to be implemented. Not only does secondhand smoke harm non-smokers, but cigarette butts also pose a significant litter and fire risk. By enforcing stricter laws, we can create a healthier and safer environment for all. Thank you for considering my appeal. Sincerely, [Your Name]",
+    "most_similar_instructions": {
+      "Write a 5-word sentence using the given input.": 0.5882352941176471,
+      "Write a sentence using a specific word from the input.": 0.5555555555555556,
+      "Write a poem using the given words.": 0.5333333333333333,
+      "Write a persuasive argument": 0.5,
+      "Create a possessive noun using the input word.": 0.5,
+      "Write a creative sentence using the word \"adventure\"": 0.5,
+      "Create a grocery list using the given input.": 0.5,
+      "Write a short story based on the given prompt.": 0.47058823529411764,
+      "Write a sentence using the given verb and preposition.": 0.47058823529411764,
+      "Can you write a simile using the word \"moon\"?": 0.47058823529411764
+    },
+    "avg_similarity_score": 0.15130855586733813
+  },
+  {
+    "instruction": "Provide the adjective that best describes the given noun",
+    "input": "Car",
+    "output": "The adjective that best describes the noun \"car\" is \"fast.\"",
+    "most_similar_instructions": {
+      "Provide the answer to the given addition problem": 0.47058823529411764,
+      "Determine the plural form of the given noun": 0.47058823529411764,
+      "Provide a superlative adjective for the given input": 0.47058823529411764,
+      "Provide the correct answer to the given input": 0.47058823529411764,
+      "Provide the correct spelling of the given word.": 0.47058823529411764,
+      "Provide the decimal equivalent of the given fraction.": 0.47058823529411764,
+      "Generate a sentence that describes the given famous painting.": 0.4444444444444444,
+      "Provide a word that rhymes with the given input": 0.4444444444444444,
+      "Please provide the missing number in the given sequence.": 0.4444444444444444,
+      "Rewrite the sentence using the given conjunction.": 0.375
+    },
+    "avg_similarity_score": 0.14064387964524355
+  },
+  {
+    "instruction": "Explain the process and importance of saving for retirement to a younger audience.",
+    "input": "What is the recommended age to start saving for retirement and why is it important?",
+    "output": "Financial experts recommend starting to save for retirement as early as your twenties. This is because starting early allows you to maximize the power of compound interest and potentially grow your savings significantly over time. Additionally, with the uncertainty of social security and rising life expectancies, it is crucial to have a solid retirement plan in place.",
+    "most_similar_instructions": {
+      "Explain the function of an apostrophe in a sentence": 0.3636363636363637,
+      "Determine the day of the week for a given date.": 0.34782608695652173,
+      "Combine the words \"yellow\" and \"green\" to form a new color.": 0.33333333333333337,
+      "Describe the process of photosynthesis": 0.33333333333333337,
+      "Combine the two words \"green\" and \"apple\" to make a compound word.": 0.32,
+      "Calculate the area of a triangle.": 0.3157894736842105,
+      "Explain the meaning of this idiom.": 0.3157894736842105,
+      "Provide a summary and explanation of how to solve a common math problem.": 0.3076923076923077,
+      "Provide the summary of a popular book.": 0.3,
+      "Explain the concept of supply and demand.": 0.3
+    },
+    "avg_similarity_score": 0.14080353509933025
+  },
+  {
+    "instruction": "Compare and contrast two famous historical figures.",
+    "input": "Can you list the similarities and differences between Martin Luther King Jr. and Malcolm X?",
+    "output": "Both Martin Luther King Jr. and Malcolm X were influential leaders during the Civil Rights Movement, but they had different approaches and beliefs about achieving racial equality. While King advocated for nonviolent resistance and integration, Malcolm X supported self-defense and separatism.",
+    "most_similar_instructions": {
+      "Compare and contrast two given items.": 0.6153846153846153,
+      "Compare two Apple products": 0.36363636363636365,
+      "Add two and two together.": 0.3333333333333333,
+      "Briefly describe a famous historical event.": 0.30769230769230765,
+      "Generate a sentence about a famous historical event.": 0.26666666666666666,
+      "Compare the popularity of the given two movie genres.": 0.25,
+      "Provide the year in which a famous historical event took place.": 0.2222222222222222,
+      "Analyze a famous painting.": 0.18181818181818182,
+      "Name the famous figure.": 0.18181818181818182,
+      "Add 2 and 3": 0.18181818181818182
+    },
+    "avg_similarity_score": 0.02041503657588722
+  },
+  {
+    "instruction": "List all the factors of the given input number.",
+    "input": "36",
+    "output": "The factors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, 36.",
+    "most_similar_instructions": {
+      "Determine the factorial of the given number.": 0.6250000000000001,
+      "Calculate the square root of the given number": 0.5882352941176471,
+      "Identify the country of the given landmark.": 0.5,
+      "Find the antonym of the input word.": 0.5,
+      "Please list the names of the seven continents.": 0.47058823529411764,
+      "Provide the correct answer to the given input": 0.47058823529411764,
+      "Determine the plural form of the given noun": 0.47058823529411764,
+      "Correct the spelling of the word in the input.": 0.4444444444444444,
+      "Ask for the name of the person in the input.": 0.4210526315789474,
+      "Please list the colors of the rainbow in alphabetical order.": 0.4210526315789474
+    },
+    "avg_similarity_score": 0.16217844777776017
+  },
+  {
+    "instruction": "Provide the summary of a popular book.",
+    "input": "Can you give me a brief overview of the book \"To Kill a Mockingbird\" by Harper Lee?",
+    "output": "\"To Kill a Mockingbird\" is a classic novel set in the fictional town of Maycomb, Alabama during the Great Depression. It follows the story of Scout Finch and her father Atticus, a lawyer who defends a black man accused of raping a white woman. Through the eyes of Scout, the novel explores themes of racism, prejudice, and morality.",
+    "most_similar_instructions": {
+      "Answer the question about a popular book.": 0.5714285714285714,
+      "Provide the correct number of days in a year": 0.5,
+      "Provide an example of a simile.": 0.4615384615384615,
+      "Provide the definition of this word.": 0.4615384615384615,
+      "Identify the main character in a book": 0.42857142857142855,
+      "Provide the definition of an abstract noun": 0.42857142857142855,
+      "Provide the antonym for a given word.": 0.42857142857142855,
+      "Provide a summary of a current global issue and its potential impact.": 0.4210526315789474,
+      "Provide the correct spelling of the given word.": 0.39999999999999997,
+      "Provide the decimal equivalent of the given fraction.": 0.39999999999999997
+    },
+    "avg_similarity_score": 0.17643841629308765
+  },
+  {
+    "instruction": "Write a sentence using a specific word from the input.",
+    "input": "The word \"tranquil\" in a sentence.",
+    "output": "The river was tranquil, providing a peaceful atmosphere for the hikers.",
+    "most_similar_instructions": {
+      "Write a 5-word sentence using the given input.": 0.631578947368421,
+      "Write a sentence using punctuation.": 0.5333333333333333,
+      "Write a sentence in the present tense.": 0.47058823529411764,
+      "Write a sentence with the word \"apple.\"": 0.47058823529411764,
+      "Generate a sentence using the word \"exercise\".": 0.47058823529411764,
+      "Create a sentence using the present perfect tense": 0.4444444444444445,
+      "Create a possessive noun using the input word.": 0.4444444444444445,
+      "Provide a word that rhymes with the given input": 0.4210526315789474,
+      "Generate a sentence that best explains the provided input.": 0.4210526315789474,
+      "Using the given adjectives, write a sentence describing a dog.": 0.4000000000000001
+    },
+    "avg_similarity_score": 0.1659680687448716
+  },
+  {
+    "instruction": "Correct the grammatical errors in the given input",
+    "input": "She am nice",
+    "output": "She is nice.",
+    "most_similar_instructions": {
+      "Correct the spelling error in the given word.": 0.625,
+      "Correct the punctuation mistake in the given sentence": 0.625,
+      "Correct the spelling of the word in the input.": 0.5882352941176471,
+      "Add the two numbers in the input.": 0.5333333333333333,
+      "Calculate the sum of the given input numbers.": 0.5,
+      "Provide the correct answer to the given input": 0.5,
+      "What is the definition of the given input word?": 0.47058823529411764,
+      "List all the factors of the given input number.": 0.47058823529411764,
+      "Identify the incorrect verb tense in the given sentence.": 0.47058823529411764,
+      "Rearrange the words in the given input sentence to create a more coherent meaning.": 0.45454545454545453
+    },
+    "avg_similarity_score": 0.17453879117005347
+  },
+  {
+    "instruction": "Create a grocery list for this week",
+    "input": "",
+    "output": "milk, eggs, bread, chicken, broccoli, apples, rice, yogurt, pasta, strawberries",
+    "most_similar_instructions": {
+      "Create a grocery list for a week's worth of meals.": 0.6666666666666665,
+      "Create a grocery list using the given input.": 0.5333333333333333,
+      "Create a list of items.": 0.5,
+      "Create a 5-item grocery list based on the input.": 0.47058823529411764,
+      "Create a sentence using this keyword.": 0.4615384615384615,
+      "Create a list of 5 famous inventors.": 0.42857142857142855,
+      "Create a grocery list by adding the inputted item to an existing list.": 0.4,
+      "Create a list of pros and cons for implementing a four-day workweek.": 0.4,
+      "Can you suggest a synonym for this word?": 0.39999999999999997,
+      "Calculate the total cost of a grocery list.": 0.39999999999999997
+    },
+    "avg_similarity_score": 0.10066568891241474
+  },
+  {
+    "instruction": "Identify the different components in the sentence.",
+    "input": "I love eating pizza with extra toppings.",
+    "output": "Subject: I \nVerb: love \nObject: eating pizza with extra toppings",
+    "most_similar_instructions": {
+      "Identify the incorrect verb tense in the given sentence.": 0.6250000000000001,
+      "Identify the noun in this sentence.": 0.6153846153846153,
+      "Identify the most commonly used word in the given sentence": 0.588235294117647,
+      "Identify the error in the given sentence and rewrite it correctly.": 0.5555555555555556,
+      "Identify the type of literary device used in the given sentence.": 0.5555555555555556,
+      "Find the longest word in the following sentence.": 0.5333333333333333,
+      "Identify the missing word from the given sentence.": 0.5333333333333333,
+      "Correct the punctuation mistake in the given sentence": 0.5333333333333333,
+      "Identify the most common letter in the given string.": 0.5,
+      "Identify the type of sentence": 0.5
+    },
+    "avg_similarity_score": 0.16592086387145466
+  },
+  {
+    "instruction": "Convert 20 degrees Celsius to Fahrenheit.",
+    "input": "What is 20 degrees Celsius in Fahrenheit?",
+    "output": "",
+    "most_similar_instructions": {
+      "Convert the given input from celsius to fahrenheit.": 0.5714285714285715,
+      "Please convert 75 degrees Fahrenheit to Celsius.": 0.4615384615384615,
+      "Convert the given measurement from inches to centimeters.": 0.28571428571428575,
+      "Convert the given temperature from Fahrenheit to Celsius.": 0.28571428571428575,
+      "Convert the given number from decimal to binary.": 0.28571428571428575,
+      "Convert the given weight from kilograms to pounds.": 0.28571428571428575,
+      "Convert the following phrase from active voice to passive voice.": 0.25,
+      "Translate this to Punjabi": 0.2,
+      "Change this statement to a question.": 0.16666666666666666,
+      "Translate the input sentence to German.": 0.16666666666666666
+    },
+    "avg_similarity_score": 0.029010127910125666
+  },
+  {
+    "instruction": "Write a 5-word sentence using the given input.",
+    "input": "Inventive, thought-provoking, funny, narrative, compelling",
+    "output": "The narrative was inventive and thought-provoking.",
+    "most_similar_instructions": {
+      "Write a sentence using punctuation.": 0.5714285714285714,
+      "Write a sentence with the word \"apple.\"": 0.5,
+      "Write a sentence about cars": 0.42857142857142855,
+      "Generate a haiku poem using the theme \"nature\".": 0.35294117647058826,
+      "Provide the correct answer to the given input": 0.35294117647058826,
+      "Write a java code that will set the given number to be within the given bounds": 0.32,
+      "Please write a conversation between two friends discussing their plans for the weekend.": 0.27272727272727276,
+      "Translate the input sentence to German.": 0.26666666666666666,
+      "Provide the answer to the given addition problem": 0.23529411764705882,
+      "Spell check the given word and provide the correct spelling.": 0.2105263157894737
+    },
+    "avg_similarity_score": 0.13902352177308722
+  },
+  {
+    "instruction": "Set the given number as a timer.",
+    "input": "30 minutes",
+    "output": "Your timer is set for 30 minutes.",
+    "most_similar_instructions": {
+      "Add 3 to the given number.": 0.4615384615384615,
+      "Classify the given input as a type of fruit or vegetable": 0.4444444444444444,
+      "Determine the factorial of the given number.": 0.42857142857142855,
+      "Replace the given noun with a pronoun.": 0.42857142857142855,
+      "Convert the given sentence into a question.": 0.42857142857142855,
+      "Convert the given number into written form": 0.42857142857142855,
+      "Rewrite the given sentence in a formal tone": 0.39999999999999997,
+      "Recreate the given sentence with a different verb.": 0.39999999999999997,
+      "Calculate the square root of the given number": 0.39999999999999997,
+      "Rearrange the given words to make a sentence.": 0.39999999999999997
+    },
+    "avg_similarity_score": 0.15989593785907263
+  },
+  {
+    "instruction": "Choose a color from this list: red, blue, green.",
+    "input": "",
+    "output": "Red",
+    "most_similar_instructions": {
+      "What color results from mixing blue and yellow?": 0.35294117647058826,
+      "What are the remaining 7 wonders of the world from this list?": 0.28571428571428575,
+      "Create a list of items.": 0.2857142857142857,
+      "Remove all punctuation from this sentence": 0.26666666666666666,
+      "Name a vegetable that is green.": 0.26666666666666666,
+      "Generate a list of similar words.": 0.26666666666666666,
+      "Create a sentence using this keyword.": 0.26666666666666666,
+      "Recommend a good restaurant in this city.": 0.25,
+      "Recommend a book based on this genre.": 0.25,
+      "Create a list of 5 famous inventors.": 0.25
+    },
+    "avg_similarity_score": 0.07502225038914184
+  },
+  {
+    "instruction": "Generate a short story about a detective solving a mysterious crime.",
+    "input": "",
+    "output": "Detective Thomas was determined to solve the mysterious murder case. He combed through the evidence, interrogated suspects, and finally discovered the truth behind the crime - it was the victim's own brother who was the killer.",
+    "most_similar_instructions": {
+      "Generate a sentence about a famous historical event.": 0.4210526315789474,
+      "Write a short story that starts with \"Once upon a time, there was a beautiful princess.\"": 0.3703703703703703,
+      "Generate a short story using the given sentence as the starting point.": 0.34782608695652173,
+      "Write a short story in first person.": 0.33333333333333326,
+      "Provide a fun fact about a specific animal.": 0.3157894736842105,
+      "Write a short story based on the given prompt.": 0.3,
+      "Create a factually accurate sentence about a famous artist": 0.3,
+      "Write a sentence about cars": 0.25000000000000006,
+      "Generate a random adjective and use it to describe a cup of coffee.": 0.24999999999999994,
+      "Identify and provide a solution to a common technical issue for a specific device.": 0.23999999999999996
+    },
+    "avg_similarity_score": 0.0675583401768368
+  },
+  {
+    "instruction": "Help a user research and analyze different job options in their desired field.",
+    "input": "A user is interested in working in the tech industry. Can you provide a list of job titles in this field, as well as the average salary, required qualifications, and job duties for each?",
+    "output": "Some common job titles in the tech industry include software developer, data scientist, web developer, and network engineer. The average salary for these roles can range from $80,000 to over $100,000 depending on experience and location. Required qualifications may include a degree in computer science or related field, knowledge of programming languages, and experience with specific software or systems. Duties may include designing, coding, troubleshooting, and collaborating with teams.",
+    "most_similar_instructions": {
+      "Help a user troubleshoot a problem with their internet connection.": 0.34782608695652173,
+      "Help a user draft a professional LinkedIn profile that highlights their skills and experience.": 0.29629629629629634,
+      "Assist a user in choosing a new moisturizer based on their skin concerns and preferences.": 0.28571428571428575,
+      "Guide a user in creating a personalized workout routine based on their fitness goals and abilities.": 0.27586206896551724,
+      "Help a user plan their dream vacation by suggesting three destinations based on their interests and budget.": 0.26666666666666666,
+      "Help someone plan a fun and budget-friendly weekend trip.": 0.2608695652173913,
+      "Help someone write a professional email requesting a job interview.": 0.2608695652173913,
+      "Help a user figure out how many calories they need to consume daily to reach their health goals.": 0.2580645161290323,
+      "Create a multiple-choice question with the given subject and options": 0.24999999999999994,
+      "Help someone create a resume that highlights their skills and experience.": 0.24999999999999994
+    },
+    "avg_similarity_score": 0.07378313193262212
+  },
+  {
+    "instruction": "Edit the following sentence: \"I have a apple.\"",
+    "input": "I have an apple.",
+    "output": "Edited sentence: I have an apple.",
+    "most_similar_instructions": {
+      "Rearrange the following sentence: I like to eat pizza.": 0.47058823529411764,
+      "Rearrange the words in the following sentence to form a famous quote.": 0.4,
+      "Rewrite the provided sentence using present perfect tense: \"I have eaten breakfast\"": 0.4,
+      "Convert the given sentence into a question.": 0.39999999999999997,
+      "Rearrange the following sentence into chronological order.": 0.39999999999999997,
+      "Edit the misspelled word in the sentence.": 0.39999999999999997,
+      "Complete the sentence with a suitable word.": 0.39999999999999997,
+      "Please rearrange the following words to create a complete sentence: \"eat\", \"I\", \"lunch\"": 0.380952380952381,
+      "Edit the sentence to make it more concise.": 0.375,
+      "Rewrite the inputted sentence using a different verb.": 0.375
+    },
+    "avg_similarity_score": 0.1472702767420292
+  },
+  {
+    "instruction": "Explain the concept using a simple example.",
+    "input": "Define the term \"gravity.\"",
+    "output": "Gravity is the force that attracts objects towards the Earth. For example, when you drop a ball, it falls to the ground due to gravity.",
+    "most_similar_instructions": {
+      "Answer the question using a well-known scientific fact.": 0.375,
+      "Answer the question using a well-known astronomy fact.": 0.375,
+      "Explain the meaning of this idiom.": 0.30769230769230765,
+      "Rewrite the sentence using active voice": 0.30769230769230765,
+      "Provide the antonym for a given word.": 0.2857142857142857,
+      "Replace the word \"boring\" with a synonym.": 0.2857142857142857,
+      "Rewrite the sentence using the given conjunction.": 0.2857142857142857,
+      "Explain how to solve the given equation.": 0.2857142857142857,
+      "Complete the analogy using an appropriate term.": 0.2857142857142857,
+      "Complete the sentence with a suitable word.": 0.2857142857142857
+    },
+    "avg_similarity_score": 0.1322105469897905
+  },
+  {
+    "instruction": "Give me a random fun fact.",
+    "input": "",
+    "output": "Did you know that a group of flamingos is called a \"flamboyance\"?",
+    "most_similar_instructions": {
+      "Give a fun fact about a country.": 0.6153846153846153,
+      "Tell a fun fact about space": 0.5,
+      "Share a fun fact about Japan.": 0.5,
+      "Provide a fun fact about a specific animal.": 0.42857142857142855,
+      "Give me a popular tourist destination in India": 0.42857142857142855,
+      "Give a relevant analogy.": 0.4,
+      "Give a related word.": 0.4,
+      "Provide a fun fact about the country in the input.": 0.37499999999999994,
+      "Generate a random math equation.": 0.3636363636363636,
+      "Generate a random 5-digit code.": 0.3333333333333333
+    },
+    "avg_similarity_score": 0.0745509768196751
+  },
+  {
+    "instruction": "Rearrange the following words to create a grammatically correct sentence.",
+    "input": "Language you which teaches its nouns side your opposite on.",
+    "output": "Which language teaches its nouns on the opposite side of the ones you know?",
+    "most_similar_instructions": {
+      "Please rearrange the following words to create a complete sentence: \"eat\", \"I\", \"lunch\"": 0.6956521739130435,
+      "Rearrange the following words to form a grammatically correct sentence: \"The happy dog chased its tail.\"": 0.6923076923076923,
+      "Rearrange the following words to create a sentence: \"soccer plays Germany in Italy tomorrow\".": 0.6666666666666666,
+      "Rearrange the given words to make a sentence.": 0.6666666666666665,
+      "Rearrange the words in the input to form a complete sentence.": 0.5714285714285713,
+      "Use the given words to create a simile.": 0.5555555555555556,
+      "Rearrange the words to form a well-known proverb.": 0.5263157894736842,
+      "Respond to the given question with a grammatically correct sentence.": 0.5,
+      "Rearrange the words in the given input sentence to create a more coherent meaning.": 0.5,
+      "Given the following list of words, create a sentence with them: brave, lion, courage, king": 0.48
+    },
+    "avg_similarity_score": 0.16132838270189997
+  },
+  {
+    "instruction": "Combine the two sentences into one.",
+    "input": "Mary loves reading. She loves writing.",
+    "output": "Mary loves reading and writing.",
+    "most_similar_instructions": {
+      "Add the two numbers in the input.": 0.30769230769230765,
+      "Given the following sentence in English, translate it into Romanian.": 0.25,
+      "Combine the words \"yellow\" and \"green\" to form a new color.": 0.23529411764705885,
+      "Predict the missing word.": 0.2,
+      "Select the correct word.": 0.2,
+      "Name the famous figure.": 0.2,
+      "Correct the grammar error.": 0.2,
+      "Add two and two together.": 0.1818181818181818,
+      "Provide the historically verified year.": 0.1818181818181818,
+      "Provide the correct scientific fact.": 0.1818181818181818
+    },
+    "avg_similarity_score": 0.09547207466525975
+  },
+  {
+    "instruction": "Write a short story that uses the following three words: adventure, treasure, and secret.",
+    "input": "Adventure: A group of friends went on a daring adventure to find a hidden treasure.\nTreasure: They searched through forests and caves, facing challenges and dangers along the way.\nSecret: Little did they know, a secret organization was also after the treasure, willing to stop at nothing to claim it.",
+    "output": "As the friends finally reached the location of the treasure, they realized the secret they had been keeping from each other: their true intentions for finding the treasure. In the end, they discovered that the real treasure was the bond of their friendship, and they laughed off their foolishness.",
+    "most_similar_instructions": {
+      "Write a short story using the following words: cat, rain, book": 0.56,
+      "Write a short story about a magical adventure.": 0.45454545454545453,
+      "Write a short story based on the given prompt.": 0.43478260869565216,
+      "Write a short story in first person.": 0.38095238095238093,
+      "Write a poem using the given words.": 0.38095238095238093,
+      "Write a creative sentence using the word \"adventure\"": 0.36363636363636365,
+      "Write a short summary of the given book.": 0.36363636363636365,
+      "Write a sentence using the given verb and preposition.": 0.34782608695652173,
+      "Generate a short story using the provided character names.": 0.34782608695652173,
+      "Write a creative two-sentence story using the given prompt.": 0.3333333333333333
+    },
+    "avg_similarity_score": 0.12185335081667661
+  },
+  {
+    "instruction": "Ask for a weather report for a specific location.",
+    "input": "What is the weather like in Sydney, Australia?",
+    "output": "The current weather in Sydney, Australia is mostly sunny with a high of 25 degrees and a low of 15 degrees.",
+    "most_similar_instructions": {
+      "Provide the current weather forecast for a given location.": 0.4444444444444444,
+      "Write a weather forecast for the inputted location and date.": 0.4210526315789474,
+      "Suggest a new title for a book.": 0.375,
+      "Recommend a restaurant for a special occasion.": 0.375,
+      "Provide instructions for making a healthy and delicious meal for a beginner cook.": 0.3636363636363637,
+      "Name a popular food from a specific country.": 0.35294117647058826,
+      "Ask for an opinion on a given topic.": 0.35294117647058826,
+      "Provide a fun fact about a specific animal.": 0.35294117647058826,
+      "Suggest a suitable outfit for a job interview": 0.35294117647058826,
+      "Suggest a unique name for a new cafe.": 0.35294117647058826
+    },
+    "avg_similarity_score": 0.07897174670209449
+  },
+  {
+    "instruction": "Ask the user for their name and refer back to them in greeting.",
+    "input": "",
+    "output": "Hello, what is your name? <user's name>, it's nice to meet you!",
+    "most_similar_instructions": {
+      "Ask the user for their favorite color.": 0.5,
+      "Ask for the name of the person in the input.": 0.34782608695652173,
+      "Provide the complete name and location of the biggest river in Europe.": 0.32,
+      "Ask the assistant for the current time.": 0.3,
+      "Use the given words to fill in the blanks.": 0.27272727272727276,
+      "Give the user instructions for making a paper airplane.": 0.27272727272727276,
+      "Tell the user how many vowels are in the input.": 0.2608695652173913,
+      "Help someone choose the right insurance coverage for their needs.": 0.2608695652173913,
+      "Input the name of the longest river in the world.": 0.2608695652173913,
+      "Combine the words \"yellow\" and \"green\" to form a new color.": 0.24999999999999994
+    },
+    "avg_similarity_score": 0.11638336382495057
+  },
+  {
+    "instruction": "Translate the phrase to another language.",
+    "input": "Translate \"Hello\" to Spanish.",
+    "output": "Hola",
+    "most_similar_instructions": {
+      "Translate the phrase from Spanish to English.": 0.6153846153846153,
+      "Translate the given phrase from English to Spanish": 0.5714285714285715,
+      "Translate the given phrase into a different language.": 0.5714285714285715,
+      "Translate the input sentence to German.": 0.5,
+      "Translate this to Punjabi": 0.4,
+      "Convert the following phrase from active voice to passive voice.": 0.37499999999999994,
+      "Translate this phrase into French.": 0.3636363636363636,
+      "Translate the sentence \"My dog loves to chase squirrels\" into Spanish.": 0.3529411764705882,
+      "Convert the measurement to different units.": 0.3333333333333333,
+      "Convert the number in kilograms to pounds.": 0.30769230769230765
+    },
+    "avg_similarity_score": 0.11622075818711518
+  },
+  {
+    "instruction": "Rewrite the following sentence to make it grammatically correct.",
+    "input": "All the childrens toys were scattered across the living room",
+    "output": "All of the children's toys were scattered across the living room.",
+    "most_similar_instructions": {
+      "Rearrange the following sentence to make it grammatically correct: He riding bike his every morning.": 0.6666666666666667,
+      "Edit the following sentence to make it grammatically correct: \"Her hobbies is reading and writing.\"": 0.6666666666666667,
+      "Reorder the words in the given sentence to make it grammatically correct.": 0.6666666666666666,
+      "Please edit this sentence to make it grammatically correct.": 0.6666666666666666,
+      "Edit the sentence to make it more concise.": 0.5882352941176471,
+      "Rewrite the following sentence to improve its clarity.": 0.5882352941176471,
+      "Rewrite this sentence to make it sound more formal.": 0.5555555555555556,
+      "Rearrange the following words to create a grammatically correct sentence.": 0.5263157894736842,
+      "Rewrite the sentence to change the verb tense.": 0.47058823529411764,
+      "Edit the sentence to correct any grammatical errors.": 0.47058823529411764
+    },
+    "avg_similarity_score": 0.13189544984448665
+  },
+  {
+    "instruction": "Ask the assistant to list out the current countries in the United Nations.",
+    "input": "",
+    "output": "The current countries in the United Nations are Afghanistan, Albania, Algeria, Andorra, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei Darussalam, Bulgaria, Burkina Faso, Burundi, Cabo Verde, Cambodia, Cameroon, Canada, Central African Republic, Chad, Chile, China, Colombia, Comoros, Democratic Republic of the Congo, Republic of the Congo, Costa Rica, C\u00f4te d\u2019Ivoire, Croatia, Cuba, Cyprus, Czechia, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Eswatini, Ethiopia, Fiji, Finland, France, Gabon, Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, North Korea, South Korea, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Myanmar, Namibia, Nauru, Nepal, Netherlands, New Zealand, Nicaragua, Niger, Nigeria, North Macedonia, Norway, Oman, Pakistan, Palau, Palestine, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russia, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, Somalia, South Africa, Spain, Sri Lanka, Sudan, Sudan, Suriname, Sweden, Switzerland, Syria, Tajikistan, Tanzania, Thailand, Timor-Leste, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, United Arab Emirates, United Kingdom, United States, Uruguay, Uzbekistan, Vanuatu, Vatican City, Venezuela, Vietnam, Yemen, Zambia, and Zimbabwe.",
+    "most_similar_instructions": {
+      "Ask the assistant for the current time.": 0.5,
+      "Ask the assistant a question about the current date.": 0.4545454545454546,
+      "Ask for the name of the person in the input.": 0.4347826086956522,
+      "Please list the top three most visited countries in the world.": 0.41666666666666663,
+      "Ask the user to identify the missing variable in a basic math equation and provide the answer.": 0.4000000000000001,
+      "List a state in the United States.": 0.4,
+      "Please list the five largest countries in the world according to land area.": 0.38461538461538464,
+      "List the names of 5 countries in Europe.": 0.380952380952381,
+      "List all the countries in Europe that are not part of the European Union.": 0.3703703703703704,
+      "Use the given words to fill in the blanks.": 0.3636363636363637
+    },
+    "avg_similarity_score": 0.12492102875937801
+  },
+  {
+    "instruction": "Generate a catchy slogan for a new product.",
+    "input": "What is a good slogan for a sunscreen brand?",
+    "output": "\"Protect your skin, unleash your glow with our sunscreen!\" or \"Sunscreen, your secret weapon for safe fun in the sun!\"",
+    "most_similar_instructions": {
+      "Help someone draft a persuasive advertisement for a new product.": 0.5555555555555556,
+      "Provide a description of a new product.": 0.5333333333333333,
+      "Suggest a unique name for a new cafe.": 0.5,
+      "Generate a synonym for \"happy\".": 0.4615384615384615,
+      "Can you suggest a creative name for a new fashion brand?": 0.4210526315789474,
+      "Provide a list of recommended educational resources for learning a new language.": 0.4,
+      "Generate a random food recommendation for dinner.": 0.39999999999999997,
+      "Generate a rhyme for the word \"cat\".": 0.39999999999999997,
+      "Recommend a restaurant for a special occasion.": 0.39999999999999997,
+      "Suggest a new title for a book.": 0.39999999999999997
+    },
+    "avg_similarity_score": 0.08989487971897403
+  },
+  {
+    "instruction": "Analyze the data and provide a conclusion.",
+    "input": "In the last month, sales increased by 20% compared to the previous month.",
+    "output": "Based on the data, it can be concluded that there was a significant increase in sales for the previous month.",
+    "most_similar_instructions": {
+      "Analyze the given sentence and provide the verb tense used.": 0.47058823529411764,
+      "Solve the equation and provide the answer.": 0.42857142857142855,
+      "Identify the grammatical error and provide the correction.": 0.39999999999999997,
+      "Explain the difference between a mammal and a reptile": 0.375,
+      "Ask the user for their age and provide a fun fact about turning that age.": 0.36363636363636365,
+      "Analyze a famous painting.": 0.36363636363636365,
+      "Spell check the given word and provide the correct spelling.": 0.3529411764705882,
+      "Provide a unique holiday recipe.": 0.3333333333333333,
+      "Combine the words \"yellow\" and \"green\" to form a new color.": 0.33333333333333326,
+      "Instruct the user to choose a country and provide a fact about that country's culture or history.": 0.32
+    },
+    "avg_similarity_score": 0.14794955827410375
+  },
+  {
+    "instruction": "Please list the top three most visited countries in the world.",
+    "input": "Genre: What are the top three most visited countries?",
+    "output": "The top three most visited countries are France, Spain, and the United States.",
+    "most_similar_instructions": {
+      "List the top 5 longest rivers in the world.": 0.6,
+      "Please list the five largest countries in the world according to land area.": 0.5833333333333334,
+      "Please list the names of the seven continents.": 0.4210526315789474,
+      "List all the countries in Europe that are not part of the European Union.": 0.4,
+      "Identify the most common letter in the given string.": 0.39999999999999997,
+      "Which animal is the fastest land animal in the world?": 0.380952380952381,
+      "Identify the most commonly used word in the given sentence": 0.380952380952381,
+      "Please list the colors of the rainbow in alphabetical order.": 0.380952380952381,
+      "List the countries that use the Euro as their currency.": 0.380952380952381,
+      "Can you list the five largest tech companies in the US?": 0.36363636363636365
+    },
+    "avg_similarity_score": 0.12738982524855688
+  },
+  {
+    "instruction": "Find the answer to \"What is the capital of South Africa?\"",
+    "input": "What is the capital of South Africa?",
+    "output": "The capital of South Africa is Pretoria.",
+    "most_similar_instructions": {
+      "What is the capital of California?": 0.5882352941176471,
+      "Identify the capital of South Africa": 0.5882352941176471,
+      "What is the capital of this country?": 0.5555555555555556,
+      "What is the name of the capital city of Brazil?": 0.47619047619047616,
+      "What is the opposite of \"joy\"?": 0.4705882352941177,
+      "What is the antonym of \"improve\"?": 0.4705882352941177,
+      "What is the square root of 169?": 0.4444444444444444,
+      "What is the sine of 30 degrees?": 0.4444444444444444,
+      "What is the factorial of this number?": 0.4444444444444444,
+      "What is the state flower of Texas?": 0.4444444444444444
+    },
+    "avg_similarity_score": 0.1411018729646003
+  },
+  {
+    "instruction": "Calculate the average of a set of numbers.",
+    "input": "[78, 92, 85, 64, 72]",
+    "output": "The average of the numbers is 78.2.",
+    "most_similar_instructions": {
+      "Calculate the area of a triangle.": 0.5714285714285715,
+      "Calculate the volume of a sphere with a radius of 5cm.": 0.5263157894736842,
+      "Calculate the total cost of a grocery list.": 0.5,
+      "Calculate the sum of the given input numbers.": 0.5,
+      "Compute the average of the numbers in this list.": 0.47058823529411764,
+      "Calculate the volume of a rectangular prism with given dimensions.": 0.4444444444444445,
+      "Tell me the average price of a gallon of gas in the US last year.": 0.43478260869565216,
+      "Complete the following sequence of numbers.": 0.42857142857142855,
+      "Calculate the area of a rectangle given the length and width.": 0.4210526315789474,
+      "Calculate the age of a person based on their birth year.": 0.4210526315789474
+    },
+    "avg_similarity_score": 0.1576076371031099
+  },
+  {
+    "instruction": "Which country consumes the most chocolate per capita?",
+    "input": "Switzerland, United States, Japan",
+    "output": "Switzerland",
+    "most_similar_instructions": {
+      "Identify the country with the highest GDP per capita": 0.47058823529411764,
+      "Which country has the highest population?": 0.42857142857142855,
+      "Which sports team has the most championships?": 0.39999999999999997,
+      "Identify the country of the given landmark.": 0.26666666666666666,
+      "Which of these commonly forms in the sky?": 0.25,
+      "Which famous scientist discovered the law of gravity?": 0.25,
+      "Identify which word is the synonym of \"small\".": 0.25,
+      "Identify the most spoken language in this country.": 0.25,
+      "Describe the steps to bake a chocolate cake.": 0.25,
+      "Identify the most common letter in the given string.": 0.23529411764705882
+    },
+    "avg_similarity_score": 0.09200432125910973
+  },
+  {
+    "instruction": "Edit the following sentence to make it grammatically correct: \"Her hobbies is reading and writing.\"",
+    "input": "\"Her hobbies is reading and writing.\"",
+    "output": "Her hobbies are reading and writing.",
+    "most_similar_instructions": {
+      "Given the following sentence in English, translate it into Romanian.": 0.32,
+      "Translate the input sentence to German.": 0.28571428571428575,
+      "Given the following list of words, create a sentence with them: brave, lion, courage, king": 0.20000000000000004,
+      "Provide the correct scientific fact.": 0.2,
+      "What is the derivative of the following?": 0.18181818181818182,
+      "Provide the answer to the given addition problem": 0.1739130434782609,
+      "Provide the correct answer to the factual question.": 0.1739130434782609,
+      "Provide the correct factual answer to the question.": 0.1739130434782609,
+      "Provide the correct answer to the given input": 0.1739130434782609,
+      "Provide the correct number of days in a year": 0.16666666666666669
+    },
+    "avg_similarity_score": 0.11281344320945438
+  },
+  {
+    "instruction": "Please provide a sentence using the given verb in the present tense.",
+    "input": "Swim",
+    "output": "I swim every day for exercise.",
+    "most_similar_instructions": {
+      "Create a sentence using the given verb in a different tense.": 0.6956521739130435,
+      "Write a sentence in the present tense.": 0.631578947368421,
+      "Create a sentence using the present perfect tense": 0.6,
+      "Provide a synonym for the verb in the sentence.": 0.5714285714285715,
+      "Write a sentence using the given verb and preposition.": 0.5714285714285715,
+      "Rewrite the given sentence in the present progressive tense": 0.5714285714285715,
+      "Generate a sentence using the given noun and verb.": 0.5714285714285715,
+      "Write a sentence using the word \"delightful\" in past tense.": 0.5454545454545454,
+      "Create a sentence using the given adverb to describe a verb.": 0.5217391304347826,
+      "Create a sentence with the given words in the appropriate order.": 0.5217391304347826
+    },
+    "avg_similarity_score": 0.1880424040451847
+  },
+  {
+    "instruction": "Compare the popularity of the given two movie genres.",
+    "input": "Drama, Action",
+    "output": "According to recent data, drama appears to be more popular than action movies.",
+    "most_similar_instructions": {
+      "Identify the country of the given landmark.": 0.5,
+      "Explain the meaning of the given acronym.": 0.5,
+      "Determine the factorial of the given number.": 0.5,
+      "Calculate the square root of the given number": 0.47058823529411764,
+      "Determine the plural form of the given noun": 0.47058823529411764,
+      "Provide the correct spelling of the given word.": 0.47058823529411764,
+      "Provide the decimal equivalent of the given fraction.": 0.47058823529411764,
+      "Calculate the sum of the given input numbers.": 0.47058823529411764,
+      "Count the number of words in the given sentence.": 0.4444444444444444,
+      "What is the definition of the given input word?": 0.4444444444444444
+    },
+    "avg_similarity_score": 0.16420225773865077
+  },
+  {
+    "instruction": "Name a popular type of cuisine.",
+    "input": "",
+    "output": "Italian cuisine is a popular type of cuisine.",
+    "most_similar_instructions": {
+      "Name a popular food from a specific country.": 0.42857142857142855,
+      "Name the collective noun for a group of lions.": 0.4,
+      "Identify the type of sentence": 0.3636363636363636,
+      "Create a list of items.": 0.3636363636363636,
+      "Classify the given input as a type of fruit or vegetable": 0.3529411764705882,
+      "Generate a list of similar words.": 0.3333333333333333,
+      "Explain a popular myth or legend.": 0.3333333333333333,
+      "Name a vegetable that is green.": 0.3333333333333333,
+      "Which of the following is a type of fruit: mango, tomato, or potato?": 0.3157894736842105,
+      "Provide the lyrics to a popular song.": 0.30769230769230765
+    },
+    "avg_similarity_score": 0.099746801076727
+  },
+  {
+    "instruction": "Edit the following paragraph for grammatical errors: \"I seen her yesterday, she was at the mall with her friends.\"",
+    "input": "\"I saw her yesterday. She was at the mall with her friends.\"",
+    "output": "\"I saw her yesterday. She was at the mall with her friends.\"",
+    "most_similar_instructions": {
+      "Correct the grammatical errors in the given input": 0.2962962962962963,
+      "Edit the sentence to correct any grammatical errors.": 0.2962962962962963,
+      "Correct this sentence for grammatical errors.": 0.23999999999999996,
+      "Edit the following sentence to make it grammatically correct: \"Her hobbies is reading and writing.\"": 0.23529411764705882,
+      "Find the synonym for the word \"happiness\".": 0.23076923076923078,
+      "Ask the assistant for the current time.": 0.23076923076923078,
+      "Identify the grammatical error and provide the correction.": 0.22222222222222218,
+      "Edit the sentence to correct the spelling error.": 0.22222222222222218,
+      "Choose the correct article for the word \"elephant\".": 0.22222222222222218,
+      "Give me the main ingredient for the food.": 0.22222222222222218
+    },
+    "avg_similarity_score": 0.08771373847134088
+  },
+  {
+    "instruction": "What is the correct spelling for this word?",
+    "input": "misspell",
+    "output": "The correct spelling for this word is misspell.",
+    "most_similar_instructions": {
+      "What is the chemical formula for this compound?": 0.625,
+      "Correct the spelling of this word.": 0.5714285714285715,
+      "What is the chemical symbol for sodium?": 0.5333333333333333,
+      "What is the capital of this country?": 0.5333333333333333,
+      "What is the factorial of this number?": 0.5333333333333333,
+      "What is the highest peak in this country?": 0.5,
+      "Select the correct word.": 0.5,
+      "Provide the correct spelling of the given word.": 0.5,
+      "Choose the correct article for the word \"elephant\".": 0.5,
+      "What is the average temperature in this city?": 0.5
+    },
+    "avg_similarity_score": 0.13976208605443122
+  },
+  {
+    "instruction": "Tell me the date of the next full moon.",
+    "input": "",
+    "output": "The next full moon will be on August 3rd, 20",
+    "most_similar_instructions": {
+      "Tell me about the history of pizza": 0.5,
+      "Tell me something interesting about the capital city of the United States.": 0.4761904761904762,
+      "Give me the full name of the writer.": 0.47058823529411764,
+      "Tell me the average price of a gallon of gas in the US last year.": 0.4166666666666667,
+      "Write the contraposition of the statement.": 0.4,
+      "Determine the polarity of the sentence.": 0.4,
+      "Analyze the sentiment of the input sentence.": 0.375,
+      "Explain the meaning of the given acronym.": 0.375,
+      "Find the antonym of the input word.": 0.375,
+      "Give the definition of the word \"surreptitious\".": 0.375
+    },
+    "avg_similarity_score": 0.13576243571054045
+  },
+  {
+    "instruction": "Instruct the user to list their top three hobbies and respond with one thing you learned from their list.",
+    "input": "",
+    "output": "Can you list your top three hobbies? Wow, I didn't know that was a hobby - thanks for sharing!",
+    "most_similar_instructions": {
+      "Ask the user to name a food and respond with a fun fact about that food.": 0.34285714285714286,
+      "Instruct the user to choose a country and provide a fact about that country's culture or history.": 0.27027027027027023,
+      "Identify the word with the longest length from the given list.": 0.26666666666666666,
+      "Suggest a book for the user to read based on their input.": 0.2580645161290323,
+      "Ask the user for their name and refer back to them in greeting.": 0.25,
+      "Instruct the user to breathe deeply for 10 seconds when they feel stressed.": 0.25,
+      "Ask the user for their age and provide a fun fact about turning that age.": 0.23529411764705882,
+      "Ask the user to choose a number and perform a simple mathematical operation on it.": 0.23529411764705882,
+      "Edit the following sentence to make it grammatically correct: \"Her hobbies is reading and writing.\"": 0.23529411764705882,
+      "Ask the user for their favorite color.": 0.23076923076923078
+    },
+    "avg_similarity_score": 0.0827401932337258
+  },
+  {
+    "instruction": "Give the definition of the word \"surreptitious\".",
+    "input": "What does the word \"surreptitious\" mean?",
+    "output": "Surreptitious means something done secretly or sneakily.",
+    "most_similar_instructions": {
+      "What is the definition of the given input word?": 0.6250000000000001,
+      "Provide the definition of this word.": 0.6153846153846153,
+      "Find the antonym of the input word.": 0.5714285714285714,
+      "Identify the part of speech for the underlined word": 0.5,
+      "Correct the spelling of the word in the input.": 0.5,
+      "What is the English translation of the Spanish word \"hola\"?": 0.47058823529411764,
+      "Correct the spelling of this word.": 0.4615384615384615,
+      "Determine the polarity of the sentence.": 0.4615384615384615,
+      "Suggest a word that is the opposite of the input word.": 0.4444444444444444,
+      "What is the derivative of the following?": 0.42857142857142855
+    },
+    "avg_similarity_score": 0.16914101245606555
+  },
+  {
+    "instruction": "Update the movie title with the year released.",
+    "input": "Back to the Future",
+    "output": "Back to the Future (1985)",
+    "most_similar_instructions": {
+      "Identify the word with the greatest value based on Scrabble points.": 0.3157894736842105,
+      "Identify the word with the longest length from the given list.": 0.3157894736842105,
+      "Answer the question with the correct capital city of the country.": 0.3157894736842105,
+      "Provide the historically verified year.": 0.3076923076923077,
+      "Determine the polarity of the sentence.": 0.28571428571428575,
+      "Type in the title of the best-selling novel series by J.K. Rowling.": 0.2727272727272727,
+      "Predict the next number in the sequence.": 0.26666666666666666,
+      "Answer the question with a famous quote.": 0.26666666666666666,
+      "Determine the factorial of the given number.": 0.26666666666666666,
+      "Find the antonym of the input word.": 0.26666666666666666
+    },
+    "avg_similarity_score": 0.12784622936360504
+  },
+  {
+    "instruction": "Input the capital city of the state.",
+    "input": "Albany",
+    "output": "The capital city of the state is Albany.",
+    "most_similar_instructions": {
+      "Name the capital of a specific state.": 0.5714285714285714,
+      "Answer the question with the correct capital city of the country.": 0.5555555555555556,
+      "Input the name of the longest river in the world.": 0.47058823529411764,
+      "What is the name of the capital city of Brazil?": 0.47058823529411764,
+      "Write the contraposition of the statement.": 0.4615384615384615,
+      "What is the capital of California?": 0.4615384615384615,
+      "Determine the polarity of the sentence.": 0.4615384615384615,
+      "Identify the capital of South Africa": 0.4615384615384615,
+      "Analyze the sentiment of the input sentence.": 0.42857142857142855,
+      "Find the antonym of the input word.": 0.42857142857142855
+    },
+    "avg_similarity_score": 0.15829800757160684
+  },
+  {
+    "instruction": "Provide the next word in this sentence: \"Live, Laugh, _____\".",
+    "input": "Love",
+    "output": "Love",
+    "most_similar_instructions": {
+      "Identify the noun in this sentence.": 0.5333333333333333,
+      "Can you tell me the missing word in this sentence?": 0.5263157894736842,
+      "Provide the missing punctuation in the sentence.": 0.5,
+      "Use the word \"often\" in a sentence.": 0.5,
+      "Provide the current time in this city.": 0.5,
+      "Find the longest word in the following sentence.": 0.47058823529411764,
+      "Provide a synonym for the verb in the sentence.": 0.4444444444444444,
+      "Replace the word in the input sentence with its synonym.": 0.4210526315789474,
+      "Identify the most commonly used word in the given sentence": 0.4210526315789474,
+      "Provide synonyms for the word \"happy\".": 0.4
+    },
+    "avg_similarity_score": 0.15233291985370687
+  }
+]
