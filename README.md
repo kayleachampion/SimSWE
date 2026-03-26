@@ -1,5 +1,5 @@
 
-Old version follows, to be rewritten:
+Old version follows, to be rewritten and customized:
 
 <p align="center" width="100%">
 <img src="assets/logo4.png" alt="Guanaco" style="width: 90%; min-width: 300px; display: block; margin: auto;">
