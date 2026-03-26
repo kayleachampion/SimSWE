@@ -1,0 +1,9 @@
+compost/
+firebase.js
+Vicuna/compost
+Vicuna/venv
+Vicuna/venv310
+Vicuna/__pycache__
+Vicuna/utils.py
+.env
+*.pyc
